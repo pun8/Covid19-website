@@ -1,0 +1,294 @@
+<%- include('../partials/header.ejs') %>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script> -->
+<!-- make a json file that saves the data from database call and then shows it on the website -->
+<!-- use media breakpoints for better mobile view -->
+<!-- add click for goto by state -->
+<div class="container">
+  <div class="w-full p-3" ></div>
+  
+  <div class="row">
+    <div class="col-12 col-sm-7 state-name">
+      <div class="newdiv"><%= (data[0].name).toUpperCase()%>
+        <div style="text-align: end;">
+          <button style="min-width: auto;" id="lbut" class="days design" title="Line Graph" onclick="showl()"><i class="fas fa-chart-area"></i></button>
+          <button style="min-width: auto;" id="bbut" class="days" title="Bar Graph" onclick="showb()"><i class="far fa-chart-bar"></i></button>
+        </div>
+      </div>
+      <div class="state-subd"><%= (date)%></div>
+
+      <div>
+        <canvas id="myChart-line"></canvas>
+        <canvas id="myChart-bar" style="display: none;"></canvas>
+      </div>
+    </div>
+    <div class="col-12 col-sm-5">
+      <div class="pie-d">
+        <button class="pies days design" id="abut" onclick="showa()">Confirmed v/s Active</button>
+        <canvas id="myChart-pie"></canvas>
+        <button class="pies days" id="dbut" onclick="showd()">Confirmed v/s Deceased</button>
+        <canvas id="myChart-pie-2" style="display: none;"></canvas>
+        <button class="pies days" id="rbut" onclick="showr()">Deceased v/s Recovered</button>
+        <canvas id="myChart-pie-3" style="display: none;"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <div class="w-full p-3" ></div>
+ 
+  <div class="row">
+    <div class="card-deck">
+      <div class="card animate__animated animate__pulse animate__faster "style="min-width: auto !important;">
+        <div class="card-body state-card">
+          <span class="state-cicon" style="color: #4b6df4;"><i class="fas fa-virus fa-lg fa-lg"></i></span>
+          <div>
+          <h1 class="card-title state-ctitle"><%= ydata[0].confirmed %></h1>
+          <h6 class="card-subtitle state-csub">Confirmed</h6>
+        </div>
+        </div>
+      </div>
+      <div class="card animate__animated animate__pulse animate__fast "style="min-width: auto !important;">
+        <div class="card-body state-card">
+          <span class="state-cicon" style="color: #f783ac;"><i class="fas fa-skull-crossbones fa-lg"></i></span>
+          <div>
+          <h1 class="card-title state-ctitle"><%= ydata[0].death %></h1>
+          <h6 class="card-subtitle state-csub">Deceased</h6>
+        </div>
+        </div>
+      </div>
+      <div class="card animate__animated animate__pulse animate__slow "style="min-width: auto !important;">
+        <div class="card-body state-card">
+          <span class="state-cicon" style="color: #15aabf;"><i class="fas fa-procedures fa-lg"></i></span>
+          <div>
+          <h1 class="card-title state-ctitle"><%= ydata[0].active %></h1>
+          <h6 class="card-subtitle state-csub">Active</h6>
+        </div>
+        </div>
+      </div>
+      <div class="card animate__animated animate__pulse animate__slower "style="min-width: auto !important;">
+        <div class="card-body state-card">
+          <span class="state-cicon" style="color: #82c91e;"><i class="fas fa-heart fa-lg"></i></span>
+          <div>
+          <h1 class="card-title state-ctitle"><%= ydata[0].cured %></h1>
+          <h6 class="card-subtitle state-csub">Recovered</h6>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- not right, when data is alot, it will look ugly and uglier in mobile phoen.. design again-->
+<script>
+  var datesarr =[]
+  var confirmedarr = []
+  var activearr = []
+  var decarr = []
+  var recarr = []
+  
+    '<% for(var sas of data){%>'
+    datesarr.push(('<%= sas.date %>').slice(5).replace("-","/"))
+    '<%}%>';
+    '<% for(var sas of data){%>'
+    confirmedarr.push('<%= sas.confirmed %>')
+    '<%}%>';  
+    '<% for(var sas of data){%>'
+    activearr.push('<%= sas.active %>')
+    '<%}%>';  
+    '<% for(var sas of data){%>'
+    decarr.push('<%= sas.death %>')
+    '<%}%>';
+    '<% for(var sas of data){%>'
+    recarr.push('<%= sas.cured %>')
+    '<%}%>';
+
+    // console.log('<%= ydata[0].confirmed %>')
+
+    Chart.defaults.global.defaultFontSize = 11;
+    Chart.defaults.global.defaultFontFamily = 'Montserrat';
+    Chart.defaults.global.defaultFontColor = 'white';
+    Chart.defaults.LineWithLine = Chart.defaults.line;
+    Chart.controllers.LineWithLine = Chart.controllers.line.extend({
+    draw: function(ease) {
+      Chart.controllers.line.prototype.draw.call(this, ease);
+
+      if (this.chart.tooltip._active && this.chart.tooltip._active.length) {
+         var activePoint = this.chart.tooltip._active[0],
+             ctx = this.chart.ctx,
+             x = activePoint.tooltipPosition().x,
+             topY = this.chart.legend.bottom,
+             bottomY = this.chart.chartArea.bottom;
+
+         // draw line
+         ctx.save();
+         ctx.beginPath();
+         ctx.moveTo(x, topY);
+         ctx.lineTo(x, bottomY);
+         ctx.lineWidth = 2;
+         ctx.strokeStyle = '#07C';
+         ctx.stroke();
+         ctx.restore();
+      }
+   }
+});
+
+// add last 7 days and 14 days. DO IT
+var ctx = document.getElementById('myChart-line');
+var myChart = new Chart(ctx, {
+    type: 'LineWithLine',
+    data: {
+        labels: datesarr,
+        datasets: [{
+            label: 'Confirmed',
+            data: confirmedarr,
+            backgroundColor: 'rgba(76,110,245, 0.2)',
+            borderColor: 'rgba(76,110,245, 1)',
+            borderWidth: 1
+        },{
+            label: 'Recovered',
+            data: recarr,
+            backgroundColor:'rgba(57, 255, 20, 0.2)',
+            borderColor: 'rgba(57, 255, 20, 1)',
+            borderWidth: 1
+        },{
+            label: 'Deceased',
+            data: decarr,
+            backgroundColor:'rgba(139, 0, 0,0.7)',
+            borderColor: 'rgba(139, 20, 20, 1)',
+            borderWidth: 1
+        },
+        {
+            label: 'active',
+            data: activearr,
+            backgroundColor: 'rgba(21,170,191, 0.5)',
+            borderColor: 'rgba(21,170,191, 1)',
+            borderWidth: 1
+        }]
+    },
+    options: {
+        tooltips: {
+            mode: 'index',
+            intersect: false
+    },
+        scales: {
+            yAxes: [{
+                ticks: {
+                    beginAtZero: true
+                }
+            }]
+        }
+      }
+});
+
+const n = datesarr.length
+//if i want to do last 7 days or 14 days. store n in a var and change with a button n-7 or n-14
+var ctxb = document.getElementById('myChart-bar');
+var myChart2 = new Chart(ctxb,{
+    type: 'bar',
+    data: {
+        labels: datesarr.slice(n-7),
+        datasets: [{
+            label: 'Recovered',
+            data: recarr.slice(n-7),
+            backgroundColor:'rgba(57, 255, 20, 0.2)',
+            borderColor: 'rgba(57, 255, 20, 1)',
+            borderWidth: 1
+        },{
+            label: 'Deceased',
+            data: decarr.slice(n-7),
+            backgroundColor:'rgba(139, 0, 0,0.7)',
+            borderColor: 'rgba(139, 20, 20, 1)',
+            borderWidth: 1
+        }]
+    },
+    options: {
+        tooltips: {
+            mode: 'index',
+            intersect: false
+    },
+        scales: {
+            yAxes: [{
+                ticks: {
+                    beginAtZero: true
+                }
+            }]
+        }
+      }
+});
+
+var ctxp = document.getElementById('myChart-pie');
+var myChart3 = new Chart(ctxp,{
+  type: 'doughnut',
+  data:{
+    labels: [
+        'Confirmed',
+        'Active'
+    ],
+    datasets: [{
+        data: ['<%= ydata[0].confirmed %>','<%= ydata[0].active %>'],
+        backgroundColor:['rgba(76,110,245, 1)','rgba(21,170,191, 0.5)']  ,
+        borderWidth: 1
+    }]},
+    options: {
+      layout: {
+            padding: {
+                left: 0,
+                right: 0,
+                top: 0,
+                bottom: 20
+            }
+        }
+    }
+});
+
+var ctxp = document.getElementById('myChart-pie-2');
+var myChart4 = new Chart(ctxp,{
+  type: 'doughnut',
+  data:{
+    labels: [
+        'Confirmed',
+        'Deceased'
+    ],
+    datasets: [{
+        data: ['<%= ydata[0].confirmed %>','<%= ydata[0].death %>'],
+        backgroundColor:['rgba(76,110,245, 1)','rgba(139, 20, 20, 1)']  ,
+        borderWidth: 1
+    }]},
+    options: {
+      layout: {
+            padding: {
+                left: 0,
+                right: 0,
+                top: 0,
+                bottom: 20
+            }
+        }
+    }
+});
+
+var ctxp = document.getElementById('myChart-pie-3');
+var myChart5 = new Chart(ctxp,{
+  type: 'doughnut',
+  data:{
+    labels: [
+        'Deceased',
+        'Recovered'
+    ],
+    datasets: [{
+        data: ['<%= ydata[0].death %>','<%= ydata[0].cured %>'],
+        backgroundColor:['rgba(139, 20, 20, 1)','rgba(57, 255, 20, 0.3)']  ,
+        borderWidth: 1
+    }]},
+    options: {
+      layout: {
+            padding: {
+                left: 0,
+                right: 0,
+                top: 0,
+                bottom: 20
+            }
+        }
+    }
+});
+</script>
+
+<%- include('../partials/footer.ejs') %>

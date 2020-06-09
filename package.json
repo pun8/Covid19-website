@@ -1,0 +1,26 @@
+{
+  "name": "corona-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "animate.css": "^4.1.0",
+    "ejs": "^3.1.2",
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "http-errors": "^1.7.3",
+    "moment": "^2.26.0",
+    "mongoose": "^5.9.12"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.1.0",
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app -e js,ejs",
+    "dev": "env-cmd -f ./config/dev.env nodemon src/app -e js,ejs"
+  },
+  "author": "",
+  "license": "ISC"
+}

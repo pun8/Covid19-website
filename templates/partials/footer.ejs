@@ -1,0 +1,91 @@
+<div class="w-full p-4" ></div>
+
+
+<!-- add view count -->
+<!-- add disclaimer like coronatracker that data might not be accurate at some times -->
+
+<!-- <div class="jumbotron jumbotron-fluid">
+  <div class="container foot">
+    <div class="row justify-content-between">
+      <div class="col-7 col-sm-4">
+        <h1>Flatten The Curve</h1>
+      </div>
+      <div class="col-7 col-sm-4 doit">
+        <button onclick="topFunction()" class="top">Back to top <i class="fas fa-level-up-alt"></i></button>
+    </div>
+    </div>
+
+    <div>
+    <div class="w-full p-5" ></div>
+
+      <button class="f-but"><span style="color: white;"><i class="fab fa-instagram fa-2x"></i></span></button>
+      <button class="f-but"><span style="color: white;"><i class="fab fa-linkedin fa-2x"></i></button>
+      <button class="f-but"><span style="color: white;"><i class="fab fa-github fa-2x"></i></button>
+      <button class="f-but"><span style="color: white;"><i class="fab fa-discord fa-2x"></i></button>
+    </div>
+  </div>
+
+</div> -->
+<button onclick="topFunction()" class="top" id="myBtn" title="Go to top"><i class="fas fa-level-up-alt"></i></button>
+
+<footer class="py-4 footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-4" style="color: white; font-size: 26px;">
+       <div> Flatter The Curve</div>
+      </div>
+      <div class="col-12 col-md-4 doitcenter">
+        <button class="f-but"><span style="color: white;"><i class="fab fa-instagram fa-lg"></i></span></button>
+        <button class="f-but"><span style="color: white;"><i class="fab fa-linkedin fa-lg"></i></button>
+        <button class="f-but"><span style="color: white;"><i class="fab fa-github fa-lg"></i></button>
+        <button class="f-but"><span style="color: white;"><i class="fab fa-discord fa-lg"></i></button>
+      </div>
+      <div class="col-12 col-md-4 doit">
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- all the js scripts(maybe) -->
+    <script src="/javascripts/app.js"></script>
+    <script src="/javascripts/sortable.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js" integrity="sha256-R4pqcOYV8lt7snxMQO/HSbVCFRPMdrhAFMH+vr9giYI=" crossorigin="anonymous"></script>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS, then iconpacks -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script> -->
+    <script src="/javascripts/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/e946b54c13.js" crossorigin="anonymous"></script>
+    <script>
+    jQuery('.twitter-block').delegate('#twitter-widget-0','DOMSubtreeModified propertychange', function() {
+  //function call to override the base twitter styles
+  customizeTweetMedia();
+ });
+ 
+ var customizeTweetMedia = function() {
+ //overrides font styles and removes the profile picture and media from twitter feed
+ jQuery('.twitter-block').find('.twitter-timeline').contents().find('.timeline-Tweet-media').css('display', 'none');
+ jQuery('.twitter-block').find('.twitter-timeline').contents().find('img.Avatar').css('display', 'none');
+ jQuery('.twitter-block').find('.twitter-timeline').contents().find('.twitter-block').css("background-color","#02101c");
+ jQuery('.twitter-block').find('.twitter-timeline').contents().find('.timeline-Header').css("background-color","#02101c");
+ jQuery('.twitter-block').find('.twitter-timeline').contents().find('.timeline-Viewport').css("background-color","#02101c");
+ jQuery('.twitter-block').find('.twitter-timeline').contents().find('span.TweetAuthor-avatar.Identity-avatar').remove();
+ jQuery('.twitter-block').find('.twitter-timeline').contents().find('ol.timeline-TweetList li').css("font-family",'"Montserrat",sans-serif !important');
+ jQuery('.twitter-block').find('.twitter-timeline').contents().find('span.TweetAuthor-screenName').css('font-size', '10px');
+ jQuery('.twitter-block').find('.twitter-timeline').contents().find('.timeline-Tweet-text').css('color', '#4b5053');
+ jQuery('.twitter-block').find('.twitter-timeline').contents().find('p.timeline-Tweet-text').css('margin','0px 0px 12px 5px');
+ jQuery('.twitter-block').find('.twitter-timeline').contents().find('.TweetAuthor-name').css('color', '#4b5053');
+ jQuery('.twitter-block').find('.twitter-timeline').contents().find('.timeline-Tweet-author').css('padding-left', '0px');
+ jQuery('.twitter-block').find('.twitter-timeline').contents().find('.timeline-Tweet').css('border', 'solid 1px rgb(29, 161, 242)');
+ jQuery('.twitter-block').find('.twitter-timeline').contents().find('span.TweetAuthor-screenName').css('font-family', "'Montserrat',sans-serif");
+
+ //also call the function on dynamic updates in addition to page load
+ jQuery('.twitter-block').find('.twitter-timeline').contents().find('.timeline-TweetList').bind('DOMSubtreeModified propertychange', function() {
+  customizeTweetMedia(this);
+});
+}
+    </script>
+
+  </body>
+</html>

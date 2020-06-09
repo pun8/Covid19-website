@@ -1,0 +1,95 @@
+.state-name{
+    color: white;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.newdiv{
+    display: flex;
+    justify-content: space-between;
+}
+
+.state-subd{
+    color: #189494;
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+
+.pie-d{
+    text-align: center;
+}
+
+.pies{
+    width:75%;
+    margin-bottom: 20px;
+}
+
+.state-card{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.state-cicon{
+    display: inline-flex;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.state-ctitle{
+    color:white;
+    padding-right: 10px;
+    font-size: 1.5rem;
+}
+
+.state-csub{
+    font-size:1rem;
+}
+
+/* and precautions page */
+
+ul{
+    padding-left: 0px;
+}
+.tabs li{
+    max-width: 150px;
+    color: white;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    list-style-type: none ;
+    transition: all .2s ease-in-out;
+}
+
+.tabs li a{
+    text-decoration: none;
+    color:white;
+    cursor: pointer;
+}
+
+.tabs li:hover{
+    transform: scale(1.1);
+    border-bottom: 1px solid white;
+}
+
+.tabs li a:active{
+    color:#189494;
+}
+.addb{
+    border-bottom: 1px solid #189494;
+}
+
+.tab-con{
+    color:white;
+}
+
+.coolshow{
+    display: block;
+}
+.notcoolshow{
+    display: none;
+}
+
+.sources{
+    text-align: end;
+}

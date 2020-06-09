@@ -1,0 +1,121 @@
+/* tables and button design */
+td, th{
+  padding: 5px;
+  padding-right: 10px;
+  padding-left: 12px;
+  border-radius: 5px;
+  color: white;
+  font-family:  'Montserrat', sans-serif;
+}
+
+table {
+  font-size: large;
+  border-collapse: separate;
+  border-spacing: 3px 4px;
+  margin: 0;
+  padding: 0%;   
+}
+
+tfoot{
+  background-color: #02101c;
+}
+th{
+  padding-right: 25 px;
+  cursor: pointer;
+  background-color: #02101c;
+  text-align: center;
+  font-family:  'Montserrat', sans-serif;
+  font-weight: 400  ;
+  position: sticky !important;
+  top: 80px;
+  z-index: 99;
+}
+
+td{
+  padding-right: 10px ;
+}
+td:nth-child(2) span{
+  color:red;
+  font-size:12px ;
+}
+td:nth-child(3) span{
+  color:grey;
+  font-size:11px ;
+}
+td:nth-child(5) span{
+  color:rgb(84, 227, 235);;
+  font-size:11px ;
+}
+
+tbody tr:nth-child(odd){
+   background-color: #0a1926;
+}
+
+tbody tr:nth-child(even){
+    background-color: #02101c;
+}
+
+td:nth-child(1){
+  color: #A9A9A9;
+}
+
+td:nth-child(2){
+  color: #A9A9A9;
+  text-align: right;
+}
+
+td:nth-child(3){
+  color: #A9A9A9;
+  text-align: right;
+}
+
+td:nth-child(4){
+  color: #5738c4;
+  text-align: right;
+} 
+
+td:nth-child(5){
+  color: #189494;
+  text-align: right;
+}
+
+
+.days{
+  border: none;
+    cursor: pointer;
+    height: 32px;
+    max-width: 250px;
+    min-width: 150px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 10px 8px;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 0px;
+    color: rgb(255, 255, 255);
+    background: #02101c;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(84, 227, 235);
+    border-image: initial;
+    border-radius: 4px;
+    padding: 10px;
+    text-decoration: none !important;
+}
+
+.days:hover{
+  color: black;
+    transition: color 1s ease 0s, background 3s ease 0s;
+    background: linear-gradient(90deg, rgb(84, 227, 235) 4.32%, rgb(35, 160, 181) 86.34%);
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+}
+
+.design{
+  color: black;
+    background: linear-gradient(90deg, rgb(84, 227, 235) 4.32%, rgb(35, 160, 181) 86.34%);
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+}

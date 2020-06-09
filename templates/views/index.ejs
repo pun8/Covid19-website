@@ -1,0 +1,411 @@
+<!-- <h1>add confirmed to deceased ratio for each state and graph of somekind</h1> -->
+<!-- make 404 page -->
+<!-- show data of dates availabe -->
+<%- include('../partials/header.ejs') %>
+<!-- <div class="container"> -->
+    <!-- Upper cards container -->
+    <div class="container">
+      <div class="w-full p-3" ></div>
+      
+      <div class="card-deck">
+        <div class="card confirmed animate__animated animate__pulse animate__faster "style="min-width: auto !important;" onclick="divjump(this)">
+          <div class="card-body d-flex justify-content-center align-items-center flex-column">
+            <span style="color: #4b6df4;">
+            <i class="fas fa-virus fa-lg"></i></span>
+            <div class="w-full p-1" ></div>
+            <h1 class="card-title" id="card-no"><%= total.confirmed %></h1>
+            <div class="w-full p-3" ></div>
+            <h6 class="card-subtitle mb-2">Confirmed</h6>
+          </div>
+        </div>
+        <div class="card deceased animate__animated animate__pulse animate__fast" style="min-width: auto !important; " onclick="divjump(this)">
+          <div class="card-body d-flex justify-content-center align-items-center flex-column">
+            <span style="color: #808080;">
+              <i class="fas fa-skull-crossbones fa-lg"></i></span>
+            <div class="w-full p-1" ></div>
+            <h1 class="card-title" id="card-no"><%= total.death %></h1>
+            <div class="w-full p-3" ></div>
+            <h6 class="card-subtitle mb-2">Deceased</h6>
+          </div>
+        </div>
+        <div class="card actived animate__animated animate__pulse  animate__slow "style="min-width: auto !important;" onclick="divjump(this)">
+          <div class="card-body d-flex justify-content-center align-items-center flex-column">
+            <span style="color: #15aabf;">
+              <i class="fas fa-procedures fa-lg"></i></span>
+            <div class="w-full p-1" ></div>
+            <h1 class="card-title" id="card-no"><%= total.active %></h1>
+            <div class="w-full p-3" ></div>
+            <h6 class="card-subtitle mb-2">Active</h6>
+          </div>
+        </div>
+        <div class="card recovered animate__animated animate__pulse  animate__slower"style="min-width: auto !important;" onclick="divjump(this)">
+          <div class="card-body d-flex justify-content-center align-items-center flex-column">
+            <span style="color: #82c91e;">
+              <i class="fas fa-heart fa-lg"></i></span>
+            <div class="w-full p-1" ></div>
+            <h1 class="card-title" id="card-no"><%= total.cured %></h1>
+            <div class="w-full p-3" ></div>
+            <h6 class="card-subtitle mb-2">Recovered</h6>
+          </div>
+        </div>
+        <div class="card tested animate__animated animate__pulse  animate__slower"style="min-width: auto !important;" onclick="divjump(this)">
+          <div class="card-body d-flex justify-content-center align-items-center flex-column">
+            <span style="color: #f783ac;">
+              <i class="fa fa-stethoscope fa-lg"></i></span>
+            <div class="w-full p-1" ></div>
+            <h1 class="card-title" id="card-no"><%= total.tests %></h1>
+            <div class="w-full p-3" ></div>
+            <h6 class="card-subtitle mb-2">Tested</h6>
+          </div>
+        </div>
+      </div>
+    
+    </div>
+
+    <div class="w-full p-5" ></div>
+    
+    <!-- table and twitter container -->
+    <div class="container">
+      <div class="row justify-content-between">
+        
+        <div class="col-lg-6 col-md-12 col-sm-2">
+          <!-- buttons -->
+          <button class="days design" id="tbut" onclick="showt()">TODAY</button>
+          <button class="days" id="ybut" onclick="showy()" >YESTERDAY</button>
+          
+          <div class="w-full p-2" ></div>
+
+          <!-- add cases being reassinged -->
+          <!-- tables -->
+          <table class="sortable" id="todaytab">
+          <thead>
+            <tr>
+            <th>Region</th>
+            <th>Confirmed</th>
+            <th>Deceased</th>
+            <th>Active</th>
+            <th>Recovered</th>
+          </tr>
+          </thead>
+          <tbody >
+          <% for(var state of data) {if(state.name==="Total")continue;%>
+            <tr class="item">
+            <td><p><%= state.name%></p></td>
+            <td class="animate__animated animate__pulse animate__faster" sorttable_customkey=<%= state.confirmed %>>
+              <% for(var ystate of ydata) {if(state.name === ystate.name){ if((state.confirmed - ystate.confirmed) == 0) break;%>
+              <span> &#8593 <%= state.confirmed - ystate.confirmed %></span>
+              <% break;}}%>
+              <%= state.confirmed %></td>
+            <td class="animate__animated animate__pulse animate__fast" sorttable_customkey=<%= state.death %>>
+              <% for(var ystate of ydata) {if(state.name === ystate.name){ if((state.death - ystate.death) == 0) break;%>
+                <span> &#8593 <%= state.death - ystate.death %></span>
+              <% break;}}%>
+              <%= state.death %></td>
+            <td class="animate__animated animate__pulse animate__slow"><%= state.active %></td>
+            <td class="animate__animated animate__pulse animate__slower" sorttable_customkey=<%= state.cured %>>
+              <% for(var ystate of ydata) {if(state.name === ystate.name){ if((state.cured - ystate.cured) == 0) break;%>
+              <span> &#8593 <%= state.cured - ystate.cured %></span>
+              <% break;}}%>
+              <%= state.cured %></td>
+          </tr>
+          <% } %>
+        </tbody>
+        <tfoot>
+          <tr class="item">
+            <td><p><%= data[n].name%></p></td>
+            <td class="animate__animated animate__pulse animate__faster" sorttable_customkey=<%= state.confirmed %>>
+              <% for(var ystate of ydata) {if(state.name === ystate.name){ if((state.confirmed - ystate.confirmed) == 0) break;%>
+              <span> &#8593 <%= state.confirmed - ystate.confirmed %></span>
+              <% break;}}%>
+              <%= state.confirmed %></td>
+            <td class="animate__animated animate__pulse animate__fast" sorttable_customkey=<%= state.death %>>
+              <% for(var ystate of ydata) {if(state.name === ystate.name){ if((state.death - ystate.death) == 0) break;%>
+                <span> &#8593 <%= state.death - ystate.death %></span>
+              <% break;}}%>
+              <%= state.death %></td>
+            <td class="animate__animated animate__pulse animate__slow"><%= state.active %></td>
+            <td class="animate__animated animate__pulse animate__slower" sorttable_customkey=<%= state.cured %>>
+              <% for(var ystate of ydata) {if(state.name === ystate.name){ if((state.cured - ystate.cured) == 0) break;%>
+              <span> &#8593 <%= state.cured - ystate.cured %></span>
+              <% break;}}%>
+              <%= state.cured %></td>
+          </tr>
+
+          </tr>
+        </tfoot>
+          </table>
+          <table class="sortable" id="yestab" style="display:none">
+          <thead>
+            <tr>
+            <th>Region</th>
+            <th>Confirmed</th>
+            <th>Deceased</th>
+            <th>Active</th>
+            <th>Recovered</th>
+          </tr>
+          </thead>
+        <tbody >
+          <% for(var state of ydata) {%>
+            <tr class="item">
+            <td><%= state.name%></td>
+            <td class="animate__animated animate__pulse animate__faster"><%= state.confirmed %></td>
+            <td class="animate__animated animate__pulse animate__fast"><%= state.death %></td>
+            <td class="animate__animated animate__pulse animate__slow"><%= state.active %></td>
+            <td class="animate__animated animate__pulse animate__slower"><%= state.cured %></td>
+          </tr>
+          <% } %>
+        </tbody>
+
+          </table>  
+      <div class="w-full p-3" ></div>
+
+        </div>
+        <div class="col-lg-5 col-12" >
+          <div class="fortweet">
+          <div class="twitter-block" >
+            <a class="twitter-timeline"data-width="500" data-height="450" data-theme="dark" data-chrome="noscrollbar transparent nofooter" href="https://twitter.com/MoHFW_INDIA?ref_src=twsrc%5Etfw">Tweets by MoHFW_INDIA</a> 
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          </div></div>
+          <canvas id="totalsChart" class="totcharts"></canvas>
+          <canvas id="totalsChart2" class="totcharts"></canvas>
+          <canvas id="totalsChart3" class="totcharts"></canvas>
+          <canvas id="totalsChart4" class="totcharts"></canvas>
+        </div>
+      </div>
+
+    </div>
+<!-- </div> -->
+<script>
+  function newDate(khuch) {
+    const ddate = khuch.split('/')
+    const month = ddate[0]
+    const  day= ddate[1]
+    return moment().date(day).month(month);
+  }
+
+    Chart.defaults.global.defaultFontSize = 11;
+    Chart.defaults.global.defaultFontFamily = 'Montserrat';
+    Chart.defaults.global.defaultFontColor = 'white';
+    Chart.defaults.LineWithLine = Chart.defaults.line;
+    Chart.controllers.LineWithLine = Chart.controllers.line.extend({
+   draw: function(ease) {
+      Chart.controllers.line.prototype.draw.call(this, ease);
+
+      if (this.chart.tooltip._active && this.chart.tooltip._active.length) {
+         var activePoint = this.chart.tooltip._active[0],
+             ctx = this.chart.ctx,
+             x = activePoint.tooltipPosition().x,
+             topY = this.chart.legend.bottom,
+             bottomY = this.chart.chartArea.bottom;
+
+         // draw line
+         ctx.save();
+         ctx.beginPath();
+         ctx.moveTo(x, topY);
+         ctx.lineTo(x, bottomY);
+         ctx.lineWidth = 2;
+         ctx.strokeStyle = '#07C';
+         ctx.stroke();
+         ctx.restore();
+      }
+   }
+});
+
+  var alldates = []
+  var allcon = []
+  var allded= []
+  var allact = []
+  var allrec = []
+
+  '<% for(var sas of alltot){%>'
+    alldates.push(newDate(('<%= sas.date %>').slice(5).replace("-","/")))
+  '<%}%>';
+  '<% for(var sas of alltot){%>'
+    allcon.push('<%= sas.confirmed %>')
+  '<%}%>';
+  '<% for(var sas of alltot){%>'
+    allded.push('<%= sas.death %>')
+  '<%}%>';
+  '<% for(var sas of alltot){%>'
+    allact.push('<%= sas.active %>')
+  '<%}%>';  
+  '<% for(var sas of alltot){%>'
+    allrec.push('<%= sas.cured %>')
+  '<%}%>';
+
+  const n = alldates.length
+  var ctx = document.getElementById('totalsChart').getContext('2d');
+  var ctx2 = document.getElementById('totalsChart2').getContext('2d');
+  var ctx3 = document.getElementById('totalsChart3').getContext('2d');
+  var ctx4 = document.getElementById('totalsChart4').getContext('2d');
+
+  var myChart = new Chart(ctx, {
+      type: 'LineWithLine',
+      data: {
+          labels:alldates.slice(n-14),
+          datasets: [{
+              label: 'Confirmed Cases',
+              data: allcon.slice(n-13),
+              backgroundColor: 'rgba(255, 99, 92, 0.1)',
+              borderColor: 'rgba(255,99,92,1)',
+              borderWidth: 2,
+          }]
+      },
+      options: {
+        tooltips: {
+          mode: 'index',
+            intersect: false,
+      callbacks: {
+        title: function(tooltipItem, data) {
+          return data['labels'][tooltipItem[0]['index']];
+        }}},
+          scales: {
+            xAxes: [{
+            ticks: {
+                autoSkip : false,
+                callback: function(value, index, values) {
+                    return new moment(value).format('DD MMM');
+                }
+            },
+            gridLines : {
+                display : false,
+            }
+        }],
+              yAxes: [{
+                  ticks: {
+                      beginAtZero: true,
+                      stepSize: 100000,
+                        callback : function(value,index,array) { return (value < 1000000) ? value/1000 + 'K' : value/1000000 + 'M';
+                  }
+              }}]
+          }
+      }
+  });
+  var myChart2 = new Chart(ctx2, {
+      type: 'LineWithLine',
+      data: {
+          labels:alldates.slice(n-14),
+          datasets: [{
+              label: 'Deceased',
+              data: allded.slice(n-13),
+              backgroundColor: 'rgba(255, 200, 192, 0.1)',
+              borderColor: 'rgba(255,199,192,1)',
+              borderWidth: 2,
+          }]
+      },
+      options: {
+        tooltips: {
+          mode: 'index',
+            intersect: false,
+      callbacks: {
+        title: function(tooltipItem, data) {
+          return data['labels'][tooltipItem[0]['index']];
+        }}},
+          scales: {
+            xAxes: [{
+            ticks: {
+                autoSkip : false,
+                callback: function(value, index, values) {
+                    return new moment(value).format('DD MMM');
+                }
+            },
+            gridLines : {
+                display : false,
+            }
+        }],
+              yAxes: [{
+                  ticks: {
+                      beginAtZero: true,
+                      stepSize: 2000,
+                        callback : function(value,index,array) { return (value < 1000000) ? value/1000 + 'K' : value/1000000 + 'M';
+                  }
+              }}]
+          }
+      }
+  });
+  var myChart3 = new Chart(ctx3,{
+    type: 'LineWithLine',
+      data: {
+          labels:alldates.slice(n-14),
+          datasets: [{
+              label: 'Active Cases',
+              data: allact.slice(n-13),
+              backgroundColor: 'rgba(0, 204, 255, 0.1)',
+              borderColor: 'rgba(5,202,255,1)',
+              borderWidth: 2,
+          }]
+      },
+      options: {
+        tooltips: {
+          mode: 'index',
+            intersect: false,
+      callbacks: {
+        title: function(tooltipItem, data) {
+          return data['labels'][tooltipItem[0]['index']];
+        }}},
+          scales: {
+            xAxes: [{
+            ticks: {
+                autoSkip : false,
+                callback: function(value, index, values) {
+                    return new moment(value).format('DD MMM');
+                }
+            },
+            gridLines : {
+                display : false,
+            }
+        }],
+              yAxes: [{
+                  ticks: {
+                      beginAtZero: true,
+                      stepSize: 50000,
+                        callback : function(value,index,array) { return (value < 1000000) ? value/1000 + 'K' : value/1000000 + 'M';
+                  }
+              }}]
+          }
+      }
+  });
+  var myChar4 = new Chart(ctx4, {
+      type: 'LineWithLine',
+      data: {
+          labels:alldates.slice(n-14),
+          datasets: [{
+              label: 'Recovered',
+              data: allrec.slice(n-13),
+              backgroundColor: 'rgba(0,180,128, 0.1)',
+              borderColor: 'rgba(0,180,128,1)',
+              borderWidth: 2,
+          }]
+      },
+      options: {
+        tooltips: {
+          mode: 'index',
+            intersect: false,
+      callbacks: {
+        title: function(tooltipItem, data) {
+          return data['labels'][tooltipItem[0]['index']];
+        }}},
+          scales: {
+            xAxes: [{
+            ticks: {
+                autoSkip : false,
+                callback: function(value, index, values) {
+                    return new moment(value).format('DD MMM');
+                }
+            },
+            gridLines : {
+                display : false,
+            }
+        }],
+              yAxes: [{
+                  ticks: {
+                      beginAtZero: true,
+                      stepSize: 100000,
+                        callback : function(value,index,array) { return (value < 1000000) ? value/1000 + 'K' : value/1000000 + 'M';
+                  }
+              }}]
+          }
+      }
+  });
+  </script>
+<%- include('../partials/footer.ejs') %>
