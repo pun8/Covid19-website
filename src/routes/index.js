@@ -28,8 +28,8 @@ router.get('/prevention',async(req,res)=>{
     console.log('GET request to index.js/prevention')
     res.render('prevention')
 })
-router.get('/sources',async(req,res)=>{
-    console.log('GET request to index.js/sources')
+router.get('/extra',async(req,res)=>{
+    console.log('GET request to EXTRA')
     res.render('under')
 })
 module.exports = router
