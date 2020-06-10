@@ -81,10 +81,16 @@ var options = {
       },
       onClickEvent: function() {
               var index = $("#basics").val();
+              act({
+                id:"nav-home"
+              })
               window.location.href="http://localhost:5000/state/"+index
       },
       onKeyEnterEvent:function() {
         var index = $("#basics").val();
+        act({
+          id:"nav-home"
+        })
         window.location.href="http://localhost:5000/state/"+index
 }
     }
@@ -127,7 +133,8 @@ function act(ele){
 
 $(window).on('load', function() {
   var idn = sessionStorage.getItem("page")
-  if(!idn || idn === "c19"){
+  console.log(idn)
+  if(!idn || idn === "c19" || idn === "reg"){
     idn="nav-home"
   }
   document.getElementById(idn).classList.add("active")

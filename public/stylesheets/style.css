@@ -227,6 +227,7 @@ footer{
 }
 
 .datasources a:hover { 
+    color: white;
     text-decoration: none;
 }
 .datasources a{

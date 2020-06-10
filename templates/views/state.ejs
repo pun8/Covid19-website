@@ -102,6 +102,7 @@
     '<%}%>';
 
     // console.log('<%= ydata[0].confirmed %>')
+    const n = datesarr.length
 
     Chart.defaults.global.defaultFontSize = 11;
     Chart.defaults.global.defaultFontFamily = 'Montserrat';
@@ -136,29 +137,29 @@ var ctx = document.getElementById('myChart-line');
 var myChart = new Chart(ctx, {
     type: 'LineWithLine',
     data: {
-        labels: datesarr,
+        labels: datesarr.slice(n-14),
         datasets: [{
             label: 'Confirmed',
-            data: confirmedarr,
+            data: confirmedarr.slice(n-14),
             backgroundColor: 'rgba(76,110,245, 0.2)',
             borderColor: 'rgba(76,110,245, 1)',
             borderWidth: 1
         },{
             label: 'Recovered',
-            data: recarr,
+            data: recarr.slice(n-14),
             backgroundColor:'rgba(57, 255, 20, 0.2)',
             borderColor: 'rgba(57, 255, 20, 1)',
             borderWidth: 1
         },{
             label: 'Deceased',
-            data: decarr,
+            data: decarr.slice(n-14),
             backgroundColor:'rgba(139, 0, 0,0.7)',
             borderColor: 'rgba(139, 20, 20, 1)',
             borderWidth: 1
         },
         {
             label: 'active',
-            data: activearr,
+            data: activearr.slice(n-14),
             backgroundColor: 'rgba(21,170,191, 0.5)',
             borderColor: 'rgba(21,170,191, 1)',
             borderWidth: 1
@@ -179,7 +180,7 @@ var myChart = new Chart(ctx, {
       }
 });
 
-const n = datesarr.length
+
 //if i want to do last 7 days or 14 days. store n in a var and change with a button n-7 or n-14
 var ctxb = document.getElementById('myChart-bar');
 var myChart2 = new Chart(ctxb,{

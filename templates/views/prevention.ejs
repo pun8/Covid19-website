@@ -3,8 +3,22 @@
 <div class="w-full p-3" ></div>
 
 <div class="container">
+    <div class="dropdown" style="display: none;">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-weight:bold; color:#08131d; background: white;">
+        Prevention
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <ul class="tabs">
+                <li id="overview2" onclick="switchroo2(this)"><a>Overview</a></li>
+                <li id="causes2" onclick="switchroo2(this)"><a>Causes</a></li>
+                <li id="symptoms2" onclick="switchroo2(this)"><a>Symptoms</a></li>
+                <li id="prevention2" onclick="switchroo2(this)" class="addb2"><a class="active">Prevention</a></li>
+                <li id="diagnosis2" onclick="switchroo2(this)"><a>Diagnosis</a></li>
+            </ul>
+        </div>
+      </div>
     <div class="row">
-        <div class="col-md-3">
+        <div class="col-md-3 tabc">
             <ul class="tabs">
                 <li id="overview" onclick="switchroo(this)"><a>Overview</a></li>
                 <li id="causes" onclick="switchroo(this)"><a>Causes</a></li>
@@ -14,7 +28,7 @@
             </ul>
         </div>
         <div class="col-md-9 tab-con">
-            <div class="overview notcoolshow">
+            <div class=" overview overview2 notcoolshow">
                 <p>Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.<br/><br/>
                     Most people infected with the COVID-19 virus will experience mild to moderate respiratory illness and recover without requiring special treatment.  Older people, and those with underlying medical problems like cardiovascular disease, diabetes, chronic respiratory disease, and cancer are more likely to develop serious illness.<br/><br/>
                     The best way to prevent and slow down transmission is be well informed about the COVID-19 virus, the disease it causes and how it spreads. Protect yourself and others from infection by washing your hands or using an alcohol based rub frequently and not touching your face.<br/><br/>
@@ -22,7 +36,7 @@
                     At this time, there are no specific vaccines or treatments for COVID-19. However, there are many ongoing clinical trials evaluating potential treatments. WHO will continue to provide updated information as soon as clinical findings become available.</p>
             <div class="sources"><a href="https://www.who.int/health-topics/coronavirus#tab=tab_1" target="_blank">Source: WHO</a></div>
             </div>
-            <div class="symptoms notcoolshow">
+            <div class=" symptoms symptoms2 notcoolshow">
                 <p>People with COVID-19 have had a wide range of symptoms reported – ranging from mild symptoms to severe illness.<br/>
                     Symptoms may appear 2-14 days after exposure to the virus. People with these symptoms may have COVID-19:<br/></p>
                     <ul>
@@ -40,7 +54,7 @@
                     </ul>
                     <div class="sources"><a href="https://www.cdc.gov/coronavirus/2019-nCoV/index.html" target="_blank">Source: CDC</a></div>
                 </div>
-            <div class="prevention">
+            <div class="prevention prevention2">
                 <p>To prevent infection and to slow transmission of COVID-19, do the following:</p>
                 <br/>
                 <ul>
@@ -54,7 +68,7 @@
                 </ul>
                 <div class="sources"><a href="https://www.who.int/health-topics/coronavirus#tab=tab_1" target="_blank">Source: WHO</a></div>
             </div>
-            <div class="causes notcoolshow">
+            <div class="causes causes2 notcoolshow">
                 <p>A novel coronavirus is a new strain of coronavirus that has not been previously identified in humans. Coronaviruses (CoV) are a large family of viruses that can cause mild illness in the form of common cold to severe respiratory diseases such as Middle East Respiratory Syndrome (MERS-CoV) and Severe Acute Respiratory Syndrome (SARS-CoV).<br/>
                 <br/>Coronaviruses are zoonotic, it means they can be transmitted between animals and people. Previous investigations showed that other coronavirus, such as SARS-CoV was transmitted from civet cats to humans and MERS-CoV from dromedary camels to humans.<br/>
                 The precise origin of the 2019‑nCoV is still uncertain. The virus has been identified in environmental samples from a live animal market in Wuhan, China and some human cases have been epidemiologically linked to this market. 
@@ -63,7 +77,7 @@
                 <br/><br/>The 2019-nCoV can be transmitted from person to person, usually after close contact with an infected patient, for example, in a household, workplace, or health care centre.</p>
                 <div class="sources"><a href="https://www.nhp.gov.in/disease/communicable-disease/novel-coronavirus-2019-ncov" target="_blank">Source: NHP</a></div>
             </div>
-            <div class="diagnosis notcoolshow">
+            <div class=" diagnosis diagnosis2 notcoolshow">
                 <p>
                     Two kinds of tests are available for COVID-19 diagnosis: tests for current infection (viral tests-molecular assays) and tests for past infection (antibody tests/serology tests).
                     <br/><br/><strong>Molecular assays:</strong> 2019-nCoV can be diagnosed by molecular assays in samples from upper respiratory tract collected as nasopharyngeal and oropharyngeal swabs and from lower respiratory tract by sputum (if possible for those patients with productive coughs) and or endotracheal aspirate or bronchoalveolar lavage in patients with more severe respiratory diseases.
@@ -100,5 +114,34 @@
         document.querySelector('div.'+_id).classList.remove('notcoolshow')
         document.querySelector('div.'+_id).classList.add('coolshow')
     }
+    function switchroo2(ele){
+        var _id = ele.id
+
+        //button to not active
+        const act =  document.querySelector('li.addb2 a.active')
+        act.classList.remove('active')
+
+        //hide the currently viewing
+        const current = document.querySelector('.addb2')
+        document.querySelector('div.'+current.id).classList.remove('coolshow')
+        document.querySelector('div.'+current.id).classList.add('notcoolshow')
+        current.classList.remove('addb2')
+
+        //show the new selected
+        var show = document.getElementById(_id)
+        show.classList.add("addb2");
+        show.querySelector('a').classList.add('active')
+        document.querySelector('div.'+_id).classList.remove('notcoolshow')
+        document.querySelector('div.'+_id).classList.add('coolshow')
+    }
+
+
+    $(function(){
+       $(".dropdown-menu").on('click', 'li a', function(){
+         $(".btn:first-child").text($(this).text());
+         $(".btn:first-child").val($(this).text());
+        });
+
+});
 </script>
 <%- include('../partials/footer.ejs') %>
