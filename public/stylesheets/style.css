@@ -55,7 +55,7 @@ body {
 .easy-autocomplete input{border-color:#020a14;border-radius:50px;border-style:solid;border-width:1px;box-shadow:0 1px 2px rgba(0,0,0,0.1) inset;color:#555;float:none;padding:6px 12px}
 .easy-autocomplete input:hover,.easy-autocomplete input:focus{box-shadow:none}
 .easy-autocomplete a{display:block}
-.easy-autocomplete-container{left:0;position:absolute;width:100%;z-index:2}
+.easy-autocomplete-container{left:0;position:absolute;width:100%;z-index:999}
 .easy-autocomplete-container ul{background:none repeat scroll 0 0 #020a14;border-width: 0px;
     border-style: solid;
     border-radius: 4px;
@@ -133,7 +133,10 @@ body {
 }
 
 .form-control{
-    background-color: #0a1926; border: none; border-radius: 50px; margin-right: 0 !important  ;
+    background-color: #0a1926;
+    border: none;
+    border-radius: 50px;
+    margin-right: 0 !important  ;
 }
 
 .form-control:focus{
@@ -269,8 +272,10 @@ footer{
     margin: auto;
     margin-bottom: 120px !important;
 }
+
 /* home page charts */
 .totcharts{
+    width: 80%;
     margin-bottom: 25px !important;
     /* max-width: 90%; */
     margin: auto;
@@ -286,4 +291,25 @@ footer{
 
 .totcharts:hover{
     transform: scale(1.009);
+}
+
+.index-form{
+    width: 75% !important; 
+    background-color: #020a14 !important;
+    height: 6vh !important;
+    padding: 15px  !important;
+    box-shadow: 1px 1px 1px 1px black  !important;
+    border: none !important;
+    border-radius: 0px !important;
+}
+
+.index-form:focus{
+    border: none !important;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled).active{
+    background-color: none;
+}
+#reg2{
+    display: contents;
 }

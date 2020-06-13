@@ -1,6 +1,6 @@
 <%- include('../partials/header.ejs') %>
-<!-- <div class="container"> -->
-    <!-- Upper cards container -->
+
+<!-- Upper cards container -->
     <div class="container">
       <div class="w-full p-3" ></div>
       
@@ -60,20 +60,34 @@
     </div>
 
     <div class="w-full p-5" ></div>
+
+    <!-- bigchart and search box -->
+    <div class="container">
+    <canvas id="totalsChart" class="totcharts"></canvas>
+
+    <div class="w-full p-3" ></div>
+
+    <form id="in-form">
+      <input id="i-form" class="fa index-form form-control" type="search" placeholder="&#xF002; REGION" style="font-family:Verdana, Geneva, Tahoma, sans-serif, FontAwesome;">
+      <button id="reg2" class="btn btn-outline-primary my-2 my-sm-0" onclick="act(this)" type="submit"></button>
+    </form>
+  </div>
+  
+    <div class="w-full p-4" ></div>
     
     <!-- table and twitter container -->
     <div class="container">
       <div class="row justify-content-between">
         
-        <div class="col-lg-6 col-md-12 col-sm-2">
+        <div class="col-lg-7 col-md-12 col-sm-2">
           <!-- buttons -->
           <button class="days design" id="tbut" onclick="showt()">TODAY</button>
           <button class="days" id="ybut" onclick="showy()" >YESTERDAY</button>
           
           <div class="w-full p-2" ></div>
 
-          <!-- add cases being reassinged -->
           <!-- tables -->
+          <!-- <div class="table-responsive"> -->
           <table class="sortable" id="todaytab">
           <thead>
             <tr>
@@ -89,7 +103,7 @@
             <tr class="item">
             <td><p><%= state.name%></p></td>
             <td class="animate__animated animate__pulse animate__faster" sorttable_customkey=<%= state.confirmed %>>
-              <% for(var ystate of ydata) {if(state.name === ystate.name){ if((state.confirmed - ystate.confirmed) == 0) break;%>
+              <% for(var ystate of ydata) {if(state.name === ystate.name){ if((state.confirmed - ystate.confirmed) <= 0) break;%>
               <span> &#8593 <%= state.confirmed - ystate.confirmed %></span>
               <% break;}}%>
               <%= state.confirmed %></td>
@@ -127,10 +141,9 @@
               <% break;}}%>
               <%= state.cured %></td>
           </tr>
-
-          </tr>
         </tfoot>
           </table>
+          <!-- </div> -->
           <table class="sortable" id="yestab" style="display:none">
           <thead>
             <tr>
@@ -154,30 +167,32 @@
         </tbody>
 
           </table>  
-      <div class="w-full p-3" ></div>
-
+          <div class="w-full p-3" ></div>
         </div>
-        <div class="col-lg-5 col-12" >
+
+        <div class="col-lg-4 col-12" >
           <div class="fortweet">
-          <div class="twitter-block" >
-            <a class="twitter-timeline"data-width="500" data-height="450" data-theme="dark" data-chrome="noscrollbar transparent nofooter" href="https://twitter.com/MoHFW_INDIA?ref_src=twsrc%5Etfw">Tweets by MoHFW_INDIA</a> 
-            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-          </div></div>
-          <canvas id="totalsChart" class="totcharts"></canvas>
-          <canvas id="totalsChart2" class="totcharts"></canvas>
-          <canvas id="totalsChart3" class="totcharts"></canvas>
-          <canvas id="totalsChart4" class="totcharts"></canvas>
+            <div class="twitter-block" >
+              <a class="twitter-timeline"data-width="500" data-height="450" data-theme="dark" data-chrome="noscrollbar transparent nofooter" href="https://twitter.com/MoHFW_INDIA?ref_src=twsrc%5Etfw">Tweets by MoHFW_INDIA</a> 
+              <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+          </div>
+          <div>
+            <!-- <canvas id="totalsChart" class="totcharts"></canvas>
+            <canvas id="totalsChart2" class="totcharts"></canvas>
+            <canvas id="totalsChart3" class="totcharts"></canvas>
+            <canvas id="totalsChart4" class="totcharts"></canvas> -->
+          </div>
         </div>
       </div>
-
     </div>
-<!-- </div> -->
+
 <script>
   function newDate(khuch) {
     const ddate = khuch.split('/')
     const month = ddate[0]
     const  day= ddate[1]
-    return moment().date(day).month(month);
+    return moment().date(day).month(month-1);
   }
 
     Chart.defaults.global.defaultFontSize = 11;
@@ -232,9 +247,9 @@
 
   const n = alldates.length
   var ctx = document.getElementById('totalsChart').getContext('2d');
-  var ctx2 = document.getElementById('totalsChart2').getContext('2d');
-  var ctx3 = document.getElementById('totalsChart3').getContext('2d');
-  var ctx4 = document.getElementById('totalsChart4').getContext('2d');
+  // var ctx2 = document.getElementById('totalsChart2').getContext('2d');
+  // var ctx3 = document.getElementById('totalsChart3').getContext('2d');
+  // var ctx4 = document.getElementById('totalsChart4').getContext('2d');
 
   var myChart = new Chart(ctx, {
       type: 'LineWithLine',
@@ -242,104 +257,35 @@
           labels:alldates.slice(n-14),
           datasets: [{
               label: 'Confirmed Cases',
-              data: allcon.slice(n-13),
+              data: allcon.slice(n-14),
               backgroundColor: 'rgba(255, 99, 92, 0.1)',
               borderColor: 'rgba(255,99,92,1)',
               borderWidth: 2,
-          }]
-      },
-      options: {
-        tooltips: {
-          mode: 'index',
-            intersect: false,
-      callbacks: {
-        title: function(tooltipItem, data) {
-          return data['labels'][tooltipItem[0]['index']];
-        }}},
-          scales: {
-            xAxes: [{
-            ticks: {
-                autoSkip : false,
-                callback: function(value, index, values) {
-                    return new moment(value).format('DD MMM');
-                }
-            },
-            gridLines : {
-                display : false,
-            }
-        }],
-              yAxes: [{
-                  ticks: {
-                      beginAtZero: true,
-                      stepSize: 100000,
-                        callback : function(value,index,array) { return (value < 1000000) ? value/1000 + 'K' : value/1000000 + 'M';
-                  }
-              }}]
-          }
-      }
-  });
-  var myChart2 = new Chart(ctx2, {
-      type: 'LineWithLine',
-      data: {
-          labels:alldates.slice(n-14),
-          datasets: [{
+          },
+          {
               label: 'Deceased',
-              data: allded.slice(n-13),
+              data: allded.slice(n-14),
               backgroundColor: 'rgba(255, 200, 192, 0.1)',
               borderColor: 'rgba(255,199,192,1)',
               borderWidth: 2,
-          }]
-      },
-      options: {
-        tooltips: {
-          mode: 'index',
-            intersect: false,
-      callbacks: {
-        title: function(tooltipItem, data) {
-          return data['labels'][tooltipItem[0]['index']];
-        }}},
-          scales: {
-            xAxes: [{
-            ticks: {
-                autoSkip : false,
-                callback: function(value, index, values) {
-                    return new moment(value).format('DD MMM');
-                }
-            },
-            gridLines : {
-                display : false,
-            }
-        }],
-              yAxes: [{
-                  ticks: {
-                      beginAtZero: true,
-                      stepSize: 2000,
-                        callback : function(value,index,array) { return (value < 1000000) ? value/1000 + 'K' : value/1000000 + 'M';
-                  }
-              }}]
-          }
-      }
-  });
-  var myChart3 = new Chart(ctx3,{
-    type: 'LineWithLine',
-      data: {
-          labels:alldates.slice(n-14),
-          datasets: [{
+          },
+          {
               label: 'Active Cases',
-              data: allact.slice(n-13),
+              data: allact.slice(n-14),
               backgroundColor: 'rgba(0, 204, 255, 0.1)',
               borderColor: 'rgba(5,202,255,1)',
               borderWidth: 2,
-          }]
+          },
+          {
+              label: 'Recovered',
+              data: allrec.slice(n-14),
+              backgroundColor: 'rgba(0,180,128, 0.1)',
+              borderColor: 'rgba(0,180,128,1)',
+              borderWidth: 2,
+          }
+        ]
       },
-      options: {
-        tooltips: {
-          mode: 'index',
-            intersect: false,
-      callbacks: {
-        title: function(tooltipItem, data) {
-          return data['labels'][tooltipItem[0]['index']];
-        }}},
+      options: {  
           scales: {
             xAxes: [{
             ticks: {
@@ -359,50 +305,143 @@
                         callback : function(value,index,array) { return (value < 1000000) ? value/1000 + 'K' : value/1000000 + 'M';
                   }
               }}]
-          }
-      }
-  });
-  var myChar4 = new Chart(ctx4, {
-      type: 'LineWithLine',
-      data: {
-          labels:alldates.slice(n-14),
-          datasets: [{
-              label: 'Recovered',
-              data: allrec.slice(n-13),
-              backgroundColor: 'rgba(0,180,128, 0.1)',
-              borderColor: 'rgba(0,180,128,1)',
-              borderWidth: 2,
-          }]
-      },
-      options: {
-        tooltips: {
+          },
+      tooltips: {
           mode: 'index',
-            intersect: false,
-      callbacks: {
-        title: function(tooltipItem, data) {
-          return data['labels'][tooltipItem[0]['index']];
-        }}},
-          scales: {
-            xAxes: [{
-            ticks: {
-                autoSkip : false,
-                callback: function(value, index, values) {
-                    return new moment(value).format('DD MMM');
-                }
-            },
-            gridLines : {
-                display : false,
-            }
-        }],
-              yAxes: [{
-                  ticks: {
-                      beginAtZero: true,
-                      stepSize: 100000,
-                        callback : function(value,index,array) { return (value < 1000000) ? value/1000 + 'K' : value/1000000 + 'M';
-                  }
-              }}]
-          }
+          intersect: false,
+          callbacks: {
+            title: function(tooltipItem, data) {
+            // return data['labels'][tooltipItem[0]['index']];
+            return
+        }}
       }
+    }
   });
+  // var myChart2 = new Chart(ctx2, {
+  //     type: 'LineWithLine',
+  //     data: {
+  //         labels:alldates.slice(n-14),
+  //         datasets: [{
+  //             label: 'Deceased',
+  //             data: allded.slice(n-13),
+  //             backgroundColor: 'rgba(255, 200, 192, 0.1)',
+  //             borderColor: 'rgba(255,199,192,1)',
+  //             borderWidth: 2,
+  //         }]
+  //     },
+  //     options: {
+  //       tooltips: {
+  //         mode: 'index',
+  //           intersect: false,
+  //     callbacks: {
+  //       title: function(tooltipItem, data) {
+  //         return data['labels'][tooltipItem[0]['index']];
+  //       }}},
+  //         scales: {
+  //           xAxes: [{
+  //           ticks: {
+  //               autoSkip : false,
+  //               callback: function(value, index, values) {
+  //                   return new moment(value).format('DD MMM');
+  //               }
+  //           },
+  //           gridLines : {
+  //               display : false,
+  //           }
+  //       }],
+  //             yAxes: [{
+  //                 ticks: {
+  //                     beginAtZero: true,
+  //                     stepSize: 2000,
+  //                       callback : function(value,index,array) { return (value < 1000000) ? value/1000 + 'K' : value/1000000 + 'M';
+  //                 }
+  //             }}]
+  //         }
+  //     }
+  // });
+  // var myChart3 = new Chart(ctx3,{
+  //   type: 'LineWithLine',
+  //     data: {
+  //         labels:alldates.slice(n-14),
+  //         datasets: [{
+  //             label: 'Active Cases',
+  //             data: allact.slice(n-13),
+  //             backgroundColor: 'rgba(0, 204, 255, 0.1)',
+  //             borderColor: 'rgba(5,202,255,1)',
+  //             borderWidth: 2,
+  //         }]
+  //     },
+  //     options: {
+  //       tooltips: {
+  //         mode: 'index',
+  //           intersect: false,
+  //     callbacks: {
+  //       title: function(tooltipItem, data) {
+  //         return data['labels'][tooltipItem[0]['index']];
+  //       }}},
+  //         scales: {
+  //           xAxes: [{
+  //           ticks: {
+  //               autoSkip : false,
+  //               callback: function(value, index, values) {
+  //                   return new moment(value).format('DD MMM');
+  //               }
+  //           },
+  //           gridLines : {
+  //               display : false,
+  //           }
+  //       }],
+  //             yAxes: [{
+  //                 ticks: {
+  //                     beginAtZero: true,
+  //                     stepSize: 50000,
+  //                       callback : function(value,index,array) { return (value < 1000000) ? value/1000 + 'K' : value/1000000 + 'M';
+  //                 }
+  //             }}]
+  //         }
+  //     }
+  // });
+  // var myChar4 = new Chart(ctx4, {
+  //     type: 'LineWithLine',
+  //     data: {
+  //         labels:alldates.slice(n-14),
+  //         datasets: [{
+  //             label: 'Recovered',
+  //             data: allrec.slice(n-13),
+  //             backgroundColor: 'rgba(0,180,128, 0.1)',
+  //             borderColor: 'rgba(0,180,128,1)',
+  //             borderWidth: 2,
+  //         }]
+  //     },
+  //     options: {
+  //       tooltips: {
+  //         mode: 'index',
+  //           intersect: false,
+  //     callbacks: {
+  //       title: function(tooltipItem, data) {
+  //         return data['labels'][tooltipItem[0]['index']];
+  //       }}},
+  //         scales: {
+  //           xAxes: [{
+  //           ticks: {
+  //               autoSkip : false,
+  //               callback: function(value, index, values) {
+  //                   return new moment(value).format('DD MMM');
+  //               }
+  //           },
+  //           gridLines : {
+  //               display : false,
+  //           }
+  //       }],
+  //             yAxes: [{
+  //                 ticks: {
+  //                     beginAtZero: true,
+  //                     stepSize: 100000,
+  //                       callback : function(value,index,array) { return (value < 1000000) ? value/1000 + 'K' : value/1000000 + 'M';
+  //                 }
+  //             }}]
+  //         }
+  //     }
+  // });
   </script>
 <%- include('../partials/footer.ejs') %>

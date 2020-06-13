@@ -73,7 +73,7 @@ function topFunction() {
 
 // autocomplete and search state
 var options = {
-    data:["Andaman and Nicobar Islands","Andhra Pradesh","Arunachal Pradesh","Assam","Bihar","Chandigarh","Chhattisgarh","Dadar Nagar Haveli","Delhi","Goa","Gujarat","Haryana","Himachal Pradesh","Jammu and Kashmir","Jharkhand","Karnataka","Kerala","Ladakh","Madhya Pradesh","Maharashtra","Manipur","Meghalaya","Mizoram","Nagaland","Odisha","Puducherry","Punjab","Rajasthan","Sikkim","Tamil Nadu","Telengana","Tripura","Uttar Pradesh","Uttarakhand","West Bengal"],
+    data:["Andaman and Nicobar Islands","Andhra Pradesh","Arunachal Pradesh","Assam","Bihar","Chandigarh","Chhattisgarh","Dadra and Nagar Haveli and Daman and Diu","Delhi","Goa","Gujarat","Haryana","Himachal Pradesh","Jammu and Kashmir","Jharkhand","Karnataka","Kerala","Ladakh","Madhya Pradesh","Maharashtra","Manipur","Meghalaya","Mizoram","Nagaland","Odisha","Puducherry","Punjab","Rajasthan","Sikkim","Tamil Nadu","Telangana","Telengana","Total","Tripura","Uttar Pradesh","Uttarakhand","West Bengal"],
     
     list: {
           match: {
@@ -97,32 +97,30 @@ var options = {
   };
 $("#basics").easyAutocomplete(options);
 
-// if search button is activated with form
-const wform = document.querySelector('form')
-const search = document.querySelector('input')
-const bttn = document.querySelector('button')
-
-wform.addEventListener('submit',(e)=>{
-    e.preventDefault()
-    const data=["Andaman and Nicobar Islands","Andhra Pradesh","Arunachal Pradesh","Assam","Bihar","Chandigarh","Chhattisgarh","Dadar Nagar Haveli","Delhi","Goa","Gujarat","Haryana","Himachal Pradesh","Jammu and Kashmir","Jharkhand","Karnataka","Kerala","Ladakh","Madhya Pradesh","Maharashtra","Manipur","Meghalaya","Mizoram","Nagaland","Odisha","Puducherry","Punjab","Rajasthan","Sikkim","Tamil Nadu","Telengana","Tripura","Uttar Pradesh","Uttarakhand","West Bengal"]
-
-    const toTitleCase = (phrase) => {
-      return phrase
-        .toLowerCase()
-        .split(' ')
-        .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-        .join(' ');
-    };
-    
-    const location = search.value 
-    
-    let result = toTitleCase(location);
-    
-    if(data.includes(result)){
-    console.log(result)
-    window.location.href="http://localhost:5000/state/"+result
-    }
-})
+var options2 = {
+  data:["Andaman and Nicobar Islands","Andhra Pradesh","Arunachal Pradesh","Assam","Bihar","Chandigarh","Chhattisgarh","Dadra and Nagar Haveli and Daman and Diu","Delhi","Goa","Gujarat","Haryana","Himachal Pradesh","Jammu and Kashmir","Jharkhand","Karnataka","Kerala","Ladakh","Madhya Pradesh","Maharashtra","Manipur","Meghalaya","Mizoram","Nagaland","Odisha","Puducherry","Punjab","Rajasthan","Sikkim","Tamil Nadu","Telangana","Telengana","Total","Tripura","Uttar Pradesh","Uttarakhand","West Bengal"],
+  
+  list: {
+        match: {
+            enabled: true
+    },
+    onClickEvent: function() {
+            var index = $("#i-form").val();
+            act({
+              id:"nav-home"
+            })
+            window.location.href="http://localhost:5000/state/"+index
+    },
+    onKeyEnterEvent:function() {
+      var index = $("#i-form").val();
+      act({
+        id:"nav-home"
+      })
+      window.location.href="http://localhost:5000/state/"+index
+}
+  }
+};
+$("#i-form").easyAutocomplete(options2);
 
 //save page state
 function act(ele){
@@ -134,7 +132,7 @@ function act(ele){
 $(window).on('load', function() {
   var idn = sessionStorage.getItem("page")
   console.log(idn)
-  if(!idn || idn === "c19" || idn === "reg"){
+  if(!idn || idn === "c19" || idn === "reg2" || idn==="reg"){
     idn="nav-home"
   }
   document.getElementById(idn).classList.add("active")
@@ -154,3 +152,57 @@ function divjump(ele){
      topFunction()
    }
 }
+
+
+// if search button is activated with form
+const wform = document.querySelector('form')
+const search = document.querySelector('input')
+const bttn = document.querySelector('button')
+
+wform.addEventListener('submit',(e)=>{
+    e.preventDefault()
+    const data=["Andaman and Nicobar Islands","Andhra Pradesh","Arunachal Pradesh","Assam","Bihar","Cases being reassigned to states","Chandigarh","Chhattisgarh","Dadar Nagar Haveli","Dadra and Nagar Haveli and Daman and Diu","Daman & Diu","Delhi","Goa","Gujarat","Haryana","Himachal Pradesh","Jammu and Kashmir","Jharkhand","Karnataka","Kerala","Ladakh","Madhya Pradesh","Maharashtra","Manipur","Meghalaya","Mizoram","Nagaland","Odisha","Puducherry","Punjab","Rajasthan","Sikkim","Tamil Nadu","Telangana","Telengana","Total","Tripura","Uttar Pradesh","Uttarakhand","West Bengal"]
+
+    const toTitleCase = (phrase) => {
+      return phrase
+        .toLowerCase()
+        .split(' ')
+        .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+        .join(' ');
+    };
+    
+    const location = search.value 
+    
+    let result = toTitleCase(location);
+    
+    if(data.includes(result)){
+    console.log(result)
+    window.location.href="http://localhost:5000/state/"+result
+    }
+})
+
+const iform = document.getElementById('in-form')
+const isearch = document.getElementById('i-form')
+
+iform.addEventListener('submit',(e)=>{
+    e.preventDefault()
+    const data=["Andaman and Nicobar Islands","Andhra Pradesh","Arunachal Pradesh","Assam","Bihar","Cases being reassigned to states","Chandigarh","Chhattisgarh","Dadar Nagar Haveli","Dadra and Nagar Haveli and Daman and Diu","Daman & Diu","Delhi","Goa","Gujarat","Haryana","Himachal Pradesh","Jammu and Kashmir","Jharkhand","Karnataka","Kerala","Ladakh","Madhya Pradesh","Maharashtra","Manipur","Meghalaya","Mizoram","Nagaland","Odisha","Puducherry","Punjab","Rajasthan","Sikkim","Tamil Nadu","Telangana","Telengana","Total","Tripura","Uttar Pradesh","Uttarakhand","West Bengal"]
+
+    const toTitleCase = (phrase) => {
+      return phrase
+        .toLowerCase()
+        .split(' ')
+        .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+        .join(' ');
+    };
+    
+    console.log(isearch.value)
+    const location = isearch.value 
+    
+    let result = toTitleCase(location);
+    
+    if(data.includes(result)){
+    console.log(result)
+    window.location.href="http://localhost:5000/state/"+result
+    }
+})
