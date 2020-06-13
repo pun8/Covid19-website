@@ -181,6 +181,7 @@ wform.addEventListener('submit',(e)=>{
     }
 })
 
+//index page form
 const iform = document.getElementById('in-form')
 const isearch = document.getElementById('i-form')
 
