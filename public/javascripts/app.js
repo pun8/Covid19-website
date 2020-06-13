@@ -84,14 +84,14 @@ var options = {
               act({
                 id:"nav-home"
               })
-              window.location.href="http://localhost:5000/state/"+index
+              window.location.href="/state/"+index
       },
       onKeyEnterEvent:function() {
         var index = $("#basics").val();
         act({
           id:"nav-home"
         })
-        window.location.href="http://localhost:5000/state/"+index
+        window.location.href="/state/"+index
 }
     }
   };
@@ -109,14 +109,14 @@ var options2 = {
             act({
               id:"nav-home"
             })
-            window.location.href="http://localhost:5000/state/"+index
+            window.location.href="/state/"+index
     },
     onKeyEnterEvent:function() {
       var index = $("#i-form").val();
       act({
         id:"nav-home"
       })
-      window.location.href="http://localhost:5000/state/"+index
+      window.location.href="/state/"+index
 }
   }
 };
@@ -177,7 +177,7 @@ wform.addEventListener('submit',(e)=>{
     
     if(data.includes(result)){
     console.log(result)
-    window.location.href="http://localhost:5000/state/"+result
+    window.location.href="/state/"+result
     }
 })
 
@@ -204,6 +204,6 @@ iform.addEventListener('submit',(e)=>{
     
     if(data.includes(result)){
     console.log(result)
-    window.location.href="http://localhost:5000/state/"+result
+    window.location.href="/state/"+result
     }
 })
