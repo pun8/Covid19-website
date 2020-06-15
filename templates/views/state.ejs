@@ -4,7 +4,7 @@
   <div class="w-full p-3" ></div>
   
   <div class="row">
-    <div class="col-12 col-sm-7 state-name">
+    <div class="col-12 col-md-7 state-name">
       <div class="newdiv"><%= (data[0].name).toUpperCase()%>
         <div style="text-align: end;">
           <button style="min-width: auto;" id="lbut" class="days design" title="Line Graph" onclick="showl()"><i class="fas fa-chart-area"></i></button>
@@ -18,13 +18,13 @@
         <canvas id="myChart-bar" style="display: none;"></canvas>
       </div>
     </div>
-    <div class="col-12 col-sm-5">
+    <div class="col-12 col-md-5">
       <div class="pie-d">
-        <button class="pies days design" id="abut" onclick="showa()">Confirmed v/s Active</button>
+        <button class="pies days design" id="abut" onclick="showa()" style="font-size: 14px;">Confirmed v/s Active</button>
         <canvas id="myChart-pie"></canvas>
-        <button class="pies days" id="dbut" onclick="showd()">Confirmed v/s Deceased</button>
+        <button class="pies days" id="dbut" onclick="showd()" style="font-size: 14px;">Confirmed v/s Deceased</button>
         <canvas id="myChart-pie-2" style="display: none;"></canvas>
-        <button class="pies days" id="rbut" onclick="showr()">Deceased v/s Recovered</button>
+        <button class="pies days" id="rbut" onclick="showr()" style="font-size: 14px;">Deceased v/s Recovered</button>
         <canvas id="myChart-pie-3" style="display: none;"></canvas>
       </div>
     </div>

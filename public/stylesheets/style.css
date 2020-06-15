@@ -114,6 +114,10 @@ body {
     padding-left: 50px;
 }
 
+.card{
+        margin-bottom: 20px !important;
+    }
+
 .btn-outline-primary{
     color:#189494;
     border:none;
