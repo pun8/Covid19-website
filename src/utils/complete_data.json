@@ -13001,7 +13001,7 @@
   "cured": 1584,
   "death": 8,
   "updatedAt": {
-    "$date": "2020-06-14T11:01:26.025Z"
+    "$date": "2020-06-14T18:01:27.785Z"
   }
 },{
   "_id": {
@@ -13018,7 +13018,7 @@
   "cured": 4,
   "death": 0,
   "updatedAt": {
-    "$date": "2020-06-14T11:01:26.025Z"
+    "$date": "2020-06-14T18:01:27.785Z"
   }
 },{
   "_id": {
@@ -13035,7 +13035,7 @@
   "cured": 3195,
   "death": 82,
   "updatedAt": {
-    "$date": "2020-06-14T11:01:26.025Z"
+    "$date": "2020-06-14T18:01:27.785Z"
   }
 },{
   "_id": {
@@ -13052,7 +13052,7 @@
   "cured": 3956,
   "death": 39,
   "updatedAt": {
-    "$date": "2020-06-14T11:01:26.026Z"
+    "$date": "2020-06-14T18:01:27.785Z"
   }
 },{
   "_id": {
@@ -13069,7 +13069,7 @@
   "cured": 33,
   "death": 0,
   "updatedAt": {
-    "$date": "2020-06-14T11:01:26.022Z"
+    "$date": "2020-06-14T18:01:27.781Z"
   }
 },{
   "_id": {
@@ -13086,7 +13086,7 @@
   "cured": 286,
   "death": 5,
   "updatedAt": {
-    "$date": "2020-06-14T11:01:26.026Z"
+    "$date": "2020-06-14T18:01:27.785Z"
   }
 },{
   "_id": {
@@ -13103,7 +13103,7 @@
   "cured": 631,
   "death": 6,
   "updatedAt": {
-    "$date": "2020-06-14T11:01:26.026Z"
+    "$date": "2020-06-14T18:01:27.785Z"
   }
 },{
   "_id": {
@@ -13120,7 +13120,7 @@
   "cured": 2,
   "death": 0,
   "updatedAt": {
-    "$date": "2020-06-14T11:01:26.026Z"
+    "$date": "2020-06-14T18:01:27.786Z"
   }
 },{
   "_id": {
@@ -13137,7 +13137,7 @@
   "cured": 14945,
   "death": 1271,
   "updatedAt": {
-    "$date": "2020-06-14T11:01:26.026Z"
+    "$date": "2020-06-14T18:01:27.786Z"
   }
 },{
   "_id": {
@@ -13154,7 +13154,7 @@
   "cured": 70,
   "death": 0,
   "updatedAt": {
-    "$date": "2020-06-14T11:01:26.026Z"
+    "$date": "2020-06-14T18:01:27.786Z"
   }
 },{
   "_id": {
@@ -13171,7 +13171,7 @@
   "cured": 2803,
   "death": 78,
   "updatedAt": {
-    "$date": "2020-06-14T11:01:26.026Z"
+    "$date": "2020-06-14T18:01:27.786Z"
   }
 },{
   "_id": {
@@ -13188,7 +13188,7 @@
   "cured": 15883,
   "death": 1448,
   "updatedAt": {
-    "$date": "2020-06-14T11:01:26.026Z"
+    "$date": "2020-06-14T18:01:27.786Z"
   }
 },{
   "_id": {
@@ -13205,7 +13205,7 @@
   "cured": 313,
   "death": 6,
   "updatedAt": {
-    "$date": "2020-06-14T11:01:26.026Z"
+    "$date": "2020-06-14T18:01:27.786Z"
   }
 },{
   "_id": {
@@ -13222,7 +13222,7 @@
   "cured": 2269,
   "death": 55,
   "updatedAt": {
-    "$date": "2020-06-14T11:01:26.026Z"
+    "$date": "2020-06-14T18:01:27.786Z"
   }
 },{
   "_id": {
@@ -13239,7 +13239,7 @@
   "cured": 816,
   "death": 8,
   "updatedAt": {
-    "$date": "2020-06-14T11:01:26.027Z"
+    "$date": "2020-06-14T18:01:27.786Z"
   }
 },{
   "_id": {
@@ -13256,7 +13256,7 @@
   "cured": 1046,
   "death": 19,
   "updatedAt": {
-    "$date": "2020-06-14T11:01:26.027Z"
+    "$date": "2020-06-14T18:01:27.786Z"
   }
 },{
   "_id": {
@@ -13273,7 +13273,7 @@
   "cured": 3648,
   "death": 81,
   "updatedAt": {
-    "$date": "2020-06-14T11:01:26.027Z"
+    "$date": "2020-06-14T18:01:27.786Z"
   }
 },{
   "_id": {
@@ -13290,7 +13290,7 @@
   "cured": 68,
   "death": 1,
   "updatedAt": {
-    "$date": "2020-06-14T11:01:26.027Z"
+    "$date": "2020-06-14T18:01:27.787Z"
   }
 },{
   "_id": {
@@ -13307,7 +13307,7 @@
   "cured": 7377,
   "death": 447,
   "updatedAt": {
-    "$date": "2020-06-14T11:01:26.027Z"
+    "$date": "2020-06-14T18:01:27.787Z"
   }
 },{
   "_id": {
@@ -13324,7 +13324,7 @@
   "cured": 49346,
   "death": 3830,
   "updatedAt": {
-    "$date": "2020-06-14T11:01:26.027Z"
+    "$date": "2020-06-14T18:01:27.787Z"
   }
 },{
   "_id": {
@@ -13341,7 +13341,7 @@
   "cured": 91,
   "death": 0,
   "updatedAt": {
-    "$date": "2020-06-14T11:01:26.027Z"
+    "$date": "2020-06-14T18:01:27.787Z"
   }
 },{
   "_id": {
@@ -13358,7 +13358,7 @@
   "cured": 22,
   "death": 1,
   "updatedAt": {
-    "$date": "2020-06-14T11:01:26.027Z"
+    "$date": "2020-06-14T18:01:27.787Z"
   }
 },{
   "_id": {
@@ -13375,7 +13375,7 @@
   "cured": 1,
   "death": 0,
   "updatedAt": {
-    "$date": "2020-06-14T11:01:26.027Z"
+    "$date": "2020-06-14T18:01:27.787Z"
   }
 },{
   "_id": {
@@ -13392,7 +13392,7 @@
   "cured": 76,
   "death": 0,
   "updatedAt": {
-    "$date": "2020-06-14T11:01:26.027Z"
+    "$date": "2020-06-14T18:01:27.787Z"
   }
 },{
   "_id": {
@@ -13409,7 +13409,7 @@
   "cured": 2594,
   "death": 10,
   "updatedAt": {
-    "$date": "2020-06-14T11:01:26.027Z"
+    "$date": "2020-06-14T18:01:27.787Z"
   }
 },{
   "_id": {
@@ -13426,7 +13426,7 @@
   "cured": 2327,
   "death": 65,
   "updatedAt": {
-    "$date": "2020-06-14T11:01:26.027Z"
+    "$date": "2020-06-14T18:01:27.787Z"
   }
 },{
   "_id": {
@@ -13443,7 +13443,7 @@
   "cured": 82,
   "death": 2,
   "updatedAt": {
-    "$date": "2020-06-14T11:01:26.027Z"
+    "$date": "2020-06-14T18:01:27.787Z"
   }
 },{
   "_id": {
@@ -13460,7 +13460,7 @@
   "cured": 9337,
   "death": 282,
   "updatedAt": {
-    "$date": "2020-06-14T11:01:26.027Z"
+    "$date": "2020-06-14T18:01:27.787Z"
   }
 },{
   "_id": {
@@ -13477,7 +13477,7 @@
   "cured": 4,
   "death": 0,
   "updatedAt": {
-    "$date": "2020-06-14T11:01:26.028Z"
+    "$date": "2020-06-14T18:01:27.788Z"
   }
 },{
   "_id": {
@@ -13494,7 +13494,7 @@
   "cured": 23409,
   "death": 397,
   "updatedAt": {
-    "$date": "2020-06-14T11:01:26.028Z"
+    "$date": "2020-06-14T18:01:27.788Z"
   }
 },{
   "_id": {
@@ -13511,7 +13511,7 @@
   "cured": 2352,
   "death": 182,
   "updatedAt": {
-    "$date": "2020-06-14T11:01:26.028Z"
+    "$date": "2020-06-14T18:01:27.788Z"
   }
 },{
   "_id": {
@@ -13528,7 +13528,7 @@
   "cured": 315,
   "death": 1,
   "updatedAt": {
-    "$date": "2020-06-14T11:01:26.028Z"
+    "$date": "2020-06-14T18:01:27.788Z"
   }
 },{
   "_id": {
@@ -13545,7 +13545,7 @@
   "cured": 1077,
   "death": 23,
   "updatedAt": {
-    "$date": "2020-06-14T11:01:26.028Z"
+    "$date": "2020-06-14T18:01:27.788Z"
   }
 },{
   "_id": {
@@ -13562,7 +13562,7 @@
   "cured": 7875,
   "death": 385,
   "updatedAt": {
-    "$date": "2020-06-14T11:01:26.028Z"
+    "$date": "2020-06-14T18:01:27.788Z"
   }
 },{
   "_id": {
@@ -13579,7 +13579,7 @@
   "cured": 4542,
   "death": 463,
   "updatedAt": {
-    "$date": "2020-06-14T11:01:26.028Z"
+    "$date": "2020-06-14T18:01:27.788Z"
   }
 },{
   "_id": {
@@ -13596,11 +13596,11 @@
   "cured": null,
   "death": null,
   "updatedAt": {
-    "$date": "2020-06-14T11:01:26.028Z"
+    "$date": "2020-06-14T18:01:27.788Z"
   }
 },{
   "_id": {
-    "$oid": "5ee6038aba88b9133c386e3e"
+    "$oid": "5ee665fcba88b9133c41a3ad"
   },
   "date": "2020-6-14",
   "name": "Total",
@@ -13608,11 +13608,2527 @@
   "active": 149348,
   "confirmed": 320922,
   "createdAt": {
-    "$date": "2020-06-14T11:01:30.263Z"
+    "$date": "2020-06-14T18:01:32.147Z"
   },
   "cured": 162379,
   "death": 9195,
   "updatedAt": {
-    "$date": "2020-06-14T11:01:30.263Z"
+    "$date": "2020-06-14T18:01:32.147Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee67407ba88b9133c42af17"
+  },
+  "date": "2020-6-15",
+  "name": "Andaman and Nicobar Islands",
+  "__v": 0,
+  "active": 5,
+  "confirmed": 38,
+  "createdAt": {
+    "$date": "2020-06-14T19:01:25.935Z"
+  },
+  "cured": 33,
+  "death": 0,
+  "updatedAt": {
+    "$date": "2020-06-15T18:01:25.663Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee67407ba88b9133c42af1c"
+  },
+  "date": "2020-6-15",
+  "name": "Andhra Pradesh",
+  "__v": 0,
+  "active": 2765,
+  "confirmed": 6163,
+  "createdAt": {
+    "$date": "2020-06-14T19:01:25.936Z"
+  },
+  "cured": 3314,
+  "death": 84,
+  "updatedAt": {
+    "$date": "2020-06-15T18:01:25.664Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee67407ba88b9133c42af30"
+  },
+  "date": "2020-6-15",
+  "name": "Arunachal Pradesh",
+  "__v": 0,
+  "active": 84,
+  "confirmed": 91,
+  "createdAt": {
+    "$date": "2020-06-14T19:01:25.936Z"
+  },
+  "cured": 7,
+  "death": 0,
+  "updatedAt": {
+    "$date": "2020-06-15T18:01:25.664Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee67407ba88b9133c42af37"
+  },
+  "date": "2020-6-15",
+  "name": "Assam",
+  "__v": 0,
+  "active": 2081,
+  "confirmed": 4049,
+  "createdAt": {
+    "$date": "2020-06-14T19:01:25.936Z"
+  },
+  "cured": 1960,
+  "death": 8,
+  "updatedAt": {
+    "$date": "2020-06-15T18:01:25.664Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee67407ba88b9133c42af3e"
+  },
+  "date": "2020-6-15",
+  "name": "Bihar",
+  "__v": 0,
+  "active": 2261,
+  "confirmed": 6470,
+  "createdAt": {
+    "$date": "2020-06-14T19:01:25.936Z"
+  },
+  "cured": 4170,
+  "death": 39,
+  "updatedAt": {
+    "$date": "2020-06-15T18:01:25.664Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee67408ba88b9133c42af56"
+  },
+  "date": "2020-6-15",
+  "name": "Chandigarh",
+  "__v": 0,
+  "active": 54,
+  "confirmed": 352,
+  "createdAt": {
+    "$date": "2020-06-14T19:01:25.936Z"
+  },
+  "cured": 293,
+  "death": 5,
+  "updatedAt": {
+    "$date": "2020-06-15T18:01:25.664Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee67408ba88b9133c42af59"
+  },
+  "date": "2020-6-15",
+  "name": "Chhattisgarh",
+  "__v": 0,
+  "active": 891,
+  "confirmed": 1662,
+  "createdAt": {
+    "$date": "2020-06-14T19:01:25.936Z"
+  },
+  "cured": 763,
+  "death": 8,
+  "updatedAt": {
+    "$date": "2020-06-15T18:01:25.664Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee67408ba88b9133c42af69"
+  },
+  "date": "2020-6-15",
+  "name": "Dadra and Nagar Haveli and Daman and Diu",
+  "__v": 0,
+  "active": 34,
+  "confirmed": 36,
+  "createdAt": {
+    "$date": "2020-06-14T19:01:25.936Z"
+  },
+  "cured": 2,
+  "death": 0,
+  "updatedAt": {
+    "$date": "2020-06-15T18:01:25.664Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee67408ba88b9133c42af6c"
+  },
+  "date": "2020-6-15",
+  "name": "Delhi",
+  "__v": 0,
+  "active": 24032,
+  "confirmed": 41182,
+  "createdAt": {
+    "$date": "2020-06-14T19:01:25.936Z"
+  },
+  "cured": 15823,
+  "death": 1327,
+  "updatedAt": {
+    "$date": "2020-06-15T18:01:25.664Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee67408ba88b9133c42af76"
+  },
+  "date": "2020-6-15",
+  "name": "Goa",
+  "__v": 0,
+  "active": 490,
+  "confirmed": 564,
+  "createdAt": {
+    "$date": "2020-06-14T19:01:25.936Z"
+  },
+  "cured": 74,
+  "death": 0,
+  "updatedAt": {
+    "$date": "2020-06-15T18:01:25.664Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee67408ba88b9133c42af88"
+  },
+  "date": "2020-6-15",
+  "name": "Gujarat",
+  "__v": 0,
+  "active": 5742,
+  "confirmed": 23544,
+  "createdAt": {
+    "$date": "2020-06-14T19:01:25.936Z"
+  },
+  "cured": 16325,
+  "death": 1477,
+  "updatedAt": {
+    "$date": "2020-06-15T18:01:25.664Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee67408ba88b9133c42af8d"
+  },
+  "date": "2020-6-15",
+  "name": "Haryana",
+  "__v": 0,
+  "active": 4117,
+  "confirmed": 7208,
+  "createdAt": {
+    "$date": "2020-06-14T19:01:25.936Z"
+  },
+  "cured": 3003,
+  "death": 88,
+  "updatedAt": {
+    "$date": "2020-06-15T18:01:25.664Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee67408ba88b9133c42af9e"
+  },
+  "date": "2020-6-15",
+  "name": "Himachal Pradesh",
+  "__v": 0,
+  "active": 174,
+  "confirmed": 518,
+  "createdAt": {
+    "$date": "2020-06-14T19:01:25.936Z"
+  },
+  "cured": 337,
+  "death": 7,
+  "updatedAt": {
+    "$date": "2020-06-15T18:01:25.664Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee67408ba88b9133c42afa1"
+  },
+  "date": "2020-6-15",
+  "name": "Jammu and Kashmir",
+  "__v": 0,
+  "active": 2593,
+  "confirmed": 5041,
+  "createdAt": {
+    "$date": "2020-06-14T19:01:25.936Z"
+  },
+  "cured": 2389,
+  "death": 59,
+  "updatedAt": {
+    "$date": "2020-06-15T18:01:25.665Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee67408ba88b9133c42afb2"
+  },
+  "date": "2020-6-15",
+  "name": "Jharkhand",
+  "__v": 0,
+  "active": 832,
+  "confirmed": 1745,
+  "createdAt": {
+    "$date": "2020-06-14T19:01:25.936Z"
+  },
+  "cured": 905,
+  "death": 8,
+  "updatedAt": {
+    "$date": "2020-06-15T18:01:25.665Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee67408ba88b9133c42afc0"
+  },
+  "date": "2020-6-15",
+  "name": "Karnataka",
+  "__v": 0,
+  "active": 2959,
+  "confirmed": 7000,
+  "createdAt": {
+    "$date": "2020-06-14T19:01:25.936Z"
+  },
+  "cured": 3955,
+  "death": 86,
+  "updatedAt": {
+    "$date": "2020-06-15T18:01:25.665Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee67408ba88b9133c42afcb"
+  },
+  "date": "2020-6-15",
+  "name": "Kerala",
+  "__v": 0,
+  "active": 1340,
+  "confirmed": 2461,
+  "createdAt": {
+    "$date": "2020-06-14T19:01:25.937Z"
+  },
+  "cured": 1102,
+  "death": 19,
+  "updatedAt": {
+    "$date": "2020-06-15T18:01:25.665Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee67408ba88b9133c42afd7"
+  },
+  "date": "2020-6-15",
+  "name": "Ladakh",
+  "__v": 0,
+  "active": 468,
+  "confirmed": 549,
+  "createdAt": {
+    "$date": "2020-06-14T19:01:25.937Z"
+  },
+  "cured": 80,
+  "death": 1,
+  "updatedAt": {
+    "$date": "2020-06-15T18:01:25.665Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee67408ba88b9133c42afda"
+  },
+  "date": "2020-6-15",
+  "name": "Madhya Pradesh",
+  "__v": 0,
+  "active": 2666,
+  "confirmed": 10802,
+  "createdAt": {
+    "$date": "2020-06-14T19:01:25.937Z"
+  },
+  "cured": 7677,
+  "death": 459,
+  "updatedAt": {
+    "$date": "2020-06-15T18:01:25.665Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee67408ba88b9133c42afec"
+  },
+  "date": "2020-6-15",
+  "name": "Maharashtra",
+  "__v": 0,
+  "active": 53030,
+  "confirmed": 107958,
+  "createdAt": {
+    "$date": "2020-06-14T19:01:25.937Z"
+  },
+  "cured": 50978,
+  "death": 3950,
+  "updatedAt": {
+    "$date": "2020-06-15T18:01:25.665Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee67408ba88b9133c42affc"
+  },
+  "date": "2020-6-15",
+  "name": "Manipur",
+  "__v": 0,
+  "active": 367,
+  "confirmed": 458,
+  "createdAt": {
+    "$date": "2020-06-14T19:01:25.937Z"
+  },
+  "cured": 91,
+  "death": 0,
+  "updatedAt": {
+    "$date": "2020-06-15T18:01:25.665Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee67408ba88b9133c42b008"
+  },
+  "date": "2020-6-15",
+  "name": "Meghalaya",
+  "__v": 0,
+  "active": 18,
+  "confirmed": 44,
+  "createdAt": {
+    "$date": "2020-06-14T19:01:25.937Z"
+  },
+  "cured": 25,
+  "death": 1,
+  "updatedAt": {
+    "$date": "2020-06-15T18:01:25.665Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee67408ba88b9133c42b013"
+  },
+  "date": "2020-6-15",
+  "name": "Mizoram",
+  "__v": 0,
+  "active": 111,
+  "confirmed": 112,
+  "createdAt": {
+    "$date": "2020-06-14T19:01:25.937Z"
+  },
+  "cured": 1,
+  "death": 0,
+  "updatedAt": {
+    "$date": "2020-06-15T18:01:25.665Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee67408ba88b9133c42b01b"
+  },
+  "date": "2020-6-15",
+  "name": "Nagaland",
+  "__v": 0,
+  "active": 80,
+  "confirmed": 168,
+  "createdAt": {
+    "$date": "2020-06-14T19:01:25.937Z"
+  },
+  "cured": 88,
+  "death": 0,
+  "updatedAt": {
+    "$date": "2020-06-15T18:01:25.665Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee67408ba88b9133c42b029"
+  },
+  "date": "2020-6-15",
+  "name": "Odisha",
+  "__v": 0,
+  "active": 1190,
+  "confirmed": 3909,
+  "createdAt": {
+    "$date": "2020-06-14T19:01:25.937Z"
+  },
+  "cured": 2708,
+  "death": 11,
+  "updatedAt": {
+    "$date": "2020-06-15T18:01:25.665Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee67409ba88b9133c42b037"
+  },
+  "date": "2020-6-15",
+  "name": "Puducherry",
+  "__v": 0,
+  "active": 98,
+  "confirmed": 194,
+  "createdAt": {
+    "$date": "2020-06-14T19:01:25.937Z"
+  },
+  "cured": 91,
+  "death": 5,
+  "updatedAt": {
+    "$date": "2020-06-15T18:01:25.665Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee67409ba88b9133c42b042"
+  },
+  "date": "2020-6-15",
+  "name": "Punjab",
+  "__v": 0,
+  "active": 717,
+  "confirmed": 3140,
+  "createdAt": {
+    "$date": "2020-06-14T19:01:25.937Z"
+  },
+  "cured": 2356,
+  "death": 67,
+  "updatedAt": {
+    "$date": "2020-06-15T18:01:25.665Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee67409ba88b9133c42b04d"
+  },
+  "date": "2020-6-15",
+  "name": "Rajasthan",
+  "__v": 0,
+  "active": 2836,
+  "confirmed": 12694,
+  "createdAt": {
+    "$date": "2020-06-14T19:01:25.937Z"
+  },
+  "cured": 9566,
+  "death": 292,
+  "updatedAt": {
+    "$date": "2020-06-15T18:01:25.665Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee67409ba88b9133c42b057"
+  },
+  "date": "2020-6-15",
+  "name": "Sikkim",
+  "__v": 0,
+  "active": 64,
+  "confirmed": 68,
+  "createdAt": {
+    "$date": "2020-06-14T19:01:25.937Z"
+  },
+  "cured": 4,
+  "death": 0,
+  "updatedAt": {
+    "$date": "2020-06-15T18:01:25.665Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee67409ba88b9133c42b063"
+  },
+  "date": "2020-6-15",
+  "name": "Tamil Nadu",
+  "__v": 0,
+  "active": 19679,
+  "confirmed": 44661,
+  "createdAt": {
+    "$date": "2020-06-14T19:01:25.937Z"
+  },
+  "cured": 24547,
+  "death": 435,
+  "updatedAt": {
+    "$date": "2020-06-15T18:01:25.665Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee67409ba88b9133c42b071"
+  },
+  "date": "2020-6-15",
+  "name": "Telangana",
+  "__v": 0,
+  "active": 2412,
+  "confirmed": 4974,
+  "createdAt": {
+    "$date": "2020-06-14T19:01:25.937Z"
+  },
+  "cured": 2377,
+  "death": 185,
+  "updatedAt": {
+    "$date": "2020-06-15T18:01:25.665Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee67409ba88b9133c42b07c"
+  },
+  "date": "2020-6-15",
+  "name": "Tripura",
+  "__v": 0,
+  "active": 760,
+  "confirmed": 1076,
+  "createdAt": {
+    "$date": "2020-06-14T19:01:25.937Z"
+  },
+  "cured": 315,
+  "death": 1,
+  "updatedAt": {
+    "$date": "2020-06-15T18:01:25.665Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee67409ba88b9133c42b087"
+  },
+  "date": "2020-6-15",
+  "name": "Uttarakhand",
+  "__v": 0,
+  "active": 684,
+  "confirmed": 1819,
+  "createdAt": {
+    "$date": "2020-06-14T19:01:25.937Z"
+  },
+  "cured": 1111,
+  "death": 24,
+  "updatedAt": {
+    "$date": "2020-06-15T18:01:25.665Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee67409ba88b9133c42b092"
+  },
+  "date": "2020-6-15",
+  "name": "Uttar Pradesh",
+  "__v": 0,
+  "active": 4948,
+  "confirmed": 13615,
+  "createdAt": {
+    "$date": "2020-06-14T19:01:25.937Z"
+  },
+  "cured": 8268,
+  "death": 399,
+  "updatedAt": {
+    "$date": "2020-06-15T18:01:25.666Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee67409ba88b9133c42b09d"
+  },
+  "date": "2020-6-15",
+  "name": "West Bengal",
+  "__v": 0,
+  "active": 5552,
+  "confirmed": 11087,
+  "createdAt": {
+    "$date": "2020-06-14T19:01:25.937Z"
+  },
+  "cured": 5060,
+  "death": 475,
+  "updatedAt": {
+    "$date": "2020-06-15T18:01:25.666Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee67409ba88b9133c42b0a8"
+  },
+  "date": "2020-6-15",
+  "name": "Cases being reassigned to states",
+  "__v": 0,
+  "active": 6972,
+  "confirmed": 6972,
+  "createdAt": {
+    "$date": "2020-06-14T19:01:25.937Z"
+  },
+  "cured": null,
+  "death": null,
+  "updatedAt": {
+    "$date": "2020-06-15T18:01:25.666Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee7b77aba88b9133c5c0955"
+  },
+  "date": "2020-6-15",
+  "name": "Total",
+  "__v": 0,
+  "active": 153106,
+  "confirmed": 332424,
+  "createdAt": {
+    "$date": "2020-06-15T18:01:29.956Z"
+  },
+  "cured": 169798,
+  "death": 9520,
+  "updatedAt": {
+    "$date": "2020-06-15T18:01:29.956Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee7c587ba88b9133c5d249d"
+  },
+  "date": "2020-6-16",
+  "name": "Andaman and Nicobar Islands",
+  "__v": 0,
+  "active": 8,
+  "confirmed": 41,
+  "createdAt": {
+    "$date": "2020-06-15T19:01:25.745Z"
+  },
+  "cured": 33,
+  "death": 0,
+  "updatedAt": {
+    "$date": "2020-06-16T18:01:26.083Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee7c587ba88b9133c5d24a2"
+  },
+  "date": "2020-6-16",
+  "name": "Arunachal Pradesh",
+  "__v": 0,
+  "active": 84,
+  "confirmed": 91,
+  "createdAt": {
+    "$date": "2020-06-15T19:01:25.746Z"
+  },
+  "cured": 7,
+  "death": 0,
+  "updatedAt": {
+    "$date": "2020-06-16T18:01:26.085Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee7c587ba88b9133c5d24a3"
+  },
+  "date": "2020-6-16",
+  "name": "Andhra Pradesh",
+  "__v": 0,
+  "active": 3052,
+  "confirmed": 6456,
+  "createdAt": {
+    "$date": "2020-06-15T19:01:25.746Z"
+  },
+  "cured": 3316,
+  "death": 88,
+  "updatedAt": {
+    "$date": "2020-06-16T18:01:26.085Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee7c587ba88b9133c5d24aa"
+  },
+  "date": "2020-6-16",
+  "name": "Assam",
+  "__v": 0,
+  "active": 1984,
+  "confirmed": 4158,
+  "createdAt": {
+    "$date": "2020-06-15T19:01:25.746Z"
+  },
+  "cured": 2166,
+  "death": 8,
+  "updatedAt": {
+    "$date": "2020-06-16T18:01:26.085Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee7c587ba88b9133c5d24b6"
+  },
+  "date": "2020-6-16",
+  "name": "Bihar",
+  "__v": 0,
+  "active": 2201,
+  "confirmed": 6650,
+  "createdAt": {
+    "$date": "2020-06-15T19:01:25.746Z"
+  },
+  "cured": 4409,
+  "death": 40,
+  "updatedAt": {
+    "$date": "2020-06-16T18:01:26.085Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee7c587ba88b9133c5d24d0"
+  },
+  "date": "2020-6-16",
+  "name": "Chandigarh",
+  "__v": 0,
+  "active": 52,
+  "confirmed": 354,
+  "createdAt": {
+    "$date": "2020-06-15T19:01:25.746Z"
+  },
+  "cured": 296,
+  "death": 6,
+  "updatedAt": {
+    "$date": "2020-06-16T18:01:26.086Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee7c587ba88b9133c5d24d1"
+  },
+  "date": "2020-6-16",
+  "name": "Dadra and Nagar Haveli and Daman and Diu",
+  "__v": 0,
+  "active": 31,
+  "confirmed": 36,
+  "createdAt": {
+    "$date": "2020-06-15T19:01:25.746Z"
+  },
+  "cured": 5,
+  "death": 0,
+  "updatedAt": {
+    "$date": "2020-06-16T18:01:26.086Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee7c587ba88b9133c5d24d4"
+  },
+  "date": "2020-6-16",
+  "name": "Chhattisgarh",
+  "__v": 0,
+  "active": 858,
+  "confirmed": 1756,
+  "createdAt": {
+    "$date": "2020-06-15T19:01:25.746Z"
+  },
+  "cured": 890,
+  "death": 8,
+  "updatedAt": {
+    "$date": "2020-06-16T18:01:26.086Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee7c587ba88b9133c5d24d8"
+  },
+  "date": "2020-6-16",
+  "name": "Delhi",
+  "__v": 0,
+  "active": 25002,
+  "confirmed": 42829,
+  "createdAt": {
+    "$date": "2020-06-15T19:01:25.747Z"
+  },
+  "cured": 16427,
+  "death": 1400,
+  "updatedAt": {
+    "$date": "2020-06-16T18:01:26.086Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee7c587ba88b9133c5d24e6"
+  },
+  "date": "2020-6-16",
+  "name": "Goa",
+  "__v": 0,
+  "active": 507,
+  "confirmed": 592,
+  "createdAt": {
+    "$date": "2020-06-15T19:01:25.747Z"
+  },
+  "cured": 85,
+  "death": 0,
+  "updatedAt": {
+    "$date": "2020-06-16T18:01:26.086Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee7c588ba88b9133c5d24fe"
+  },
+  "date": "2020-6-16",
+  "name": "Gujarat",
+  "__v": 0,
+  "active": 5886,
+  "confirmed": 24055,
+  "createdAt": {
+    "$date": "2020-06-15T19:01:25.747Z"
+  },
+  "cured": 16664,
+  "death": 1505,
+  "updatedAt": {
+    "$date": "2020-06-16T18:01:26.086Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee7c588ba88b9133c5d2503"
+  },
+  "date": "2020-6-16",
+  "name": "Haryana",
+  "__v": 0,
+  "active": 4057,
+  "confirmed": 7722,
+  "createdAt": {
+    "$date": "2020-06-15T19:01:25.747Z"
+  },
+  "cured": 3565,
+  "death": 100,
+  "updatedAt": {
+    "$date": "2020-06-16T18:01:26.086Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee7c588ba88b9133c5d2504"
+  },
+  "date": "2020-6-16",
+  "name": "Himachal Pradesh",
+  "__v": 0,
+  "active": 195,
+  "confirmed": 556,
+  "createdAt": {
+    "$date": "2020-06-15T19:01:25.747Z"
+  },
+  "cured": 353,
+  "death": 8,
+  "updatedAt": {
+    "$date": "2020-06-16T18:01:26.086Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee7c588ba88b9133c5d250e"
+  },
+  "date": "2020-6-16",
+  "name": "Jammu and Kashmir",
+  "__v": 0,
+  "active": 2554,
+  "confirmed": 5220,
+  "createdAt": {
+    "$date": "2020-06-15T19:01:25.747Z"
+  },
+  "cured": 2604,
+  "death": 62,
+  "updatedAt": {
+    "$date": "2020-06-16T18:01:26.086Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee7c588ba88b9133c5d251d"
+  },
+  "date": "2020-6-16",
+  "name": "Jharkhand",
+  "__v": 0,
+  "active": 850,
+  "confirmed": 1763,
+  "createdAt": {
+    "$date": "2020-06-15T19:01:25.747Z"
+  },
+  "cured": 905,
+  "death": 8,
+  "updatedAt": {
+    "$date": "2020-06-16T18:01:26.087Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee7c588ba88b9133c5d2532"
+  },
+  "date": "2020-6-16",
+  "name": "Karnataka",
+  "__v": 0,
+  "active": 2989,
+  "confirmed": 7213,
+  "createdAt": {
+    "$date": "2020-06-15T19:01:25.747Z"
+  },
+  "cured": 4135,
+  "death": 89,
+  "updatedAt": {
+    "$date": "2020-06-16T18:01:26.087Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee7c588ba88b9133c5d253d"
+  },
+  "date": "2020-6-16",
+  "name": "Kerala",
+  "__v": 0,
+  "active": 1348,
+  "confirmed": 2543,
+  "createdAt": {
+    "$date": "2020-06-15T19:01:25.747Z"
+  },
+  "cured": 1175,
+  "death": 20,
+  "updatedAt": {
+    "$date": "2020-06-16T18:01:26.087Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee7c588ba88b9133c5d2540"
+  },
+  "date": "2020-6-16",
+  "name": "Ladakh",
+  "__v": 0,
+  "active": 472,
+  "confirmed": 555,
+  "createdAt": {
+    "$date": "2020-06-15T19:01:25.747Z"
+  },
+  "cured": 82,
+  "death": 1,
+  "updatedAt": {
+    "$date": "2020-06-16T18:01:26.087Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee7c588ba88b9133c5d2549"
+  },
+  "date": "2020-6-16",
+  "name": "Madhya Pradesh",
+  "__v": 0,
+  "active": 2567,
+  "confirmed": 10935,
+  "createdAt": {
+    "$date": "2020-06-15T19:01:25.747Z"
+  },
+  "cured": 7903,
+  "death": 465,
+  "updatedAt": {
+    "$date": "2020-06-16T18:01:26.087Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee7c588ba88b9133c5d2559"
+  },
+  "date": "2020-6-16",
+  "name": "Maharashtra",
+  "__v": 0,
+  "active": 50567,
+  "confirmed": 110744,
+  "createdAt": {
+    "$date": "2020-06-15T19:01:25.747Z"
+  },
+  "cured": 56049,
+  "death": 4128,
+  "updatedAt": {
+    "$date": "2020-06-16T18:01:26.087Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee7c588ba88b9133c5d2567"
+  },
+  "date": "2020-6-16",
+  "name": "Manipur",
+  "__v": 0,
+  "active": 339,
+  "confirmed": 490,
+  "createdAt": {
+    "$date": "2020-06-15T19:01:25.747Z"
+  },
+  "cured": 151,
+  "death": 0,
+  "updatedAt": {
+    "$date": "2020-06-16T18:01:26.087Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee7c588ba88b9133c5d2572"
+  },
+  "date": "2020-6-16",
+  "name": "Meghalaya",
+  "__v": 0,
+  "active": 18,
+  "confirmed": 44,
+  "createdAt": {
+    "$date": "2020-06-15T19:01:25.747Z"
+  },
+  "cured": 25,
+  "death": 1,
+  "updatedAt": {
+    "$date": "2020-06-16T18:01:26.087Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee7c588ba88b9133c5d2575"
+  },
+  "date": "2020-6-16",
+  "name": "Mizoram",
+  "__v": 0,
+  "active": 116,
+  "confirmed": 117,
+  "createdAt": {
+    "$date": "2020-06-15T19:01:25.747Z"
+  },
+  "cured": 1,
+  "death": 0,
+  "updatedAt": {
+    "$date": "2020-06-16T18:01:26.087Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee7c588ba88b9133c5d257e"
+  },
+  "date": "2020-6-16",
+  "name": "Nagaland",
+  "__v": 0,
+  "active": 85,
+  "confirmed": 177,
+  "createdAt": {
+    "$date": "2020-06-15T19:01:25.747Z"
+  },
+  "cured": 92,
+  "death": 0,
+  "updatedAt": {
+    "$date": "2020-06-16T18:01:26.087Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee7c588ba88b9133c5d258f"
+  },
+  "date": "2020-6-16",
+  "name": "Odisha",
+  "__v": 0,
+  "active": 1190,
+  "confirmed": 4055,
+  "createdAt": {
+    "$date": "2020-06-15T19:01:25.747Z"
+  },
+  "cured": 2854,
+  "death": 11,
+  "updatedAt": {
+    "$date": "2020-06-16T18:01:26.087Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee7c589ba88b9133c5d259e"
+  },
+  "date": "2020-6-16",
+  "name": "Puducherry",
+  "__v": 0,
+  "active": 102,
+  "confirmed": 202,
+  "createdAt": {
+    "$date": "2020-06-15T19:01:25.747Z"
+  },
+  "cured": 95,
+  "death": 5,
+  "updatedAt": {
+    "$date": "2020-06-16T18:01:26.087Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee7c589ba88b9133c5d25a9"
+  },
+  "date": "2020-6-16",
+  "name": "Punjab",
+  "__v": 0,
+  "active": 753,
+  "confirmed": 3267,
+  "createdAt": {
+    "$date": "2020-06-15T19:01:25.747Z"
+  },
+  "cured": 2443,
+  "death": 71,
+  "updatedAt": {
+    "$date": "2020-06-16T18:01:26.088Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee7c589ba88b9133c5d25ac"
+  },
+  "date": "2020-6-16",
+  "name": "Rajasthan",
+  "__v": 0,
+  "active": 2895,
+  "confirmed": 12981,
+  "createdAt": {
+    "$date": "2020-06-15T19:01:25.747Z"
+  },
+  "cured": 9785,
+  "death": 301,
+  "updatedAt": {
+    "$date": "2020-06-16T18:01:26.088Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee7c589ba88b9133c5d25ba"
+  },
+  "date": "2020-6-16",
+  "name": "Sikkim",
+  "__v": 0,
+  "active": 64,
+  "confirmed": 68,
+  "createdAt": {
+    "$date": "2020-06-15T19:01:25.747Z"
+  },
+  "cured": 4,
+  "death": 0,
+  "updatedAt": {
+    "$date": "2020-06-16T18:01:26.088Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee7c589ba88b9133c5d25c8"
+  },
+  "date": "2020-6-16",
+  "name": "Tamil Nadu",
+  "__v": 0,
+  "active": 20681,
+  "confirmed": 46504,
+  "createdAt": {
+    "$date": "2020-06-15T19:01:25.748Z"
+  },
+  "cured": 25344,
+  "death": 479,
+  "updatedAt": {
+    "$date": "2020-06-16T18:01:26.088Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee7c589ba88b9133c5d25d4"
+  },
+  "date": "2020-6-16",
+  "name": "Telangana",
+  "__v": 0,
+  "active": 2240,
+  "confirmed": 5193,
+  "createdAt": {
+    "$date": "2020-06-15T19:01:25.748Z"
+  },
+  "cured": 2766,
+  "death": 187,
+  "updatedAt": {
+    "$date": "2020-06-16T18:01:26.088Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee7c589ba88b9133c5d25df"
+  },
+  "date": "2020-6-16",
+  "name": "Tripura",
+  "__v": 0,
+  "active": 652,
+  "confirmed": 1086,
+  "createdAt": {
+    "$date": "2020-06-15T19:01:25.748Z"
+  },
+  "cured": 433,
+  "death": 1,
+  "updatedAt": {
+    "$date": "2020-06-16T18:01:26.088Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee7c589ba88b9133c5d25e2"
+  },
+  "date": "2020-6-16",
+  "name": "Uttarakhand",
+  "__v": 0,
+  "active": 632,
+  "confirmed": 1845,
+  "createdAt": {
+    "$date": "2020-06-15T19:01:25.748Z"
+  },
+  "cured": 1189,
+  "death": 24,
+  "updatedAt": {
+    "$date": "2020-06-16T18:01:26.088Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee7c589ba88b9133c5d25f2"
+  },
+  "date": "2020-6-16",
+  "name": "Uttar Pradesh",
+  "__v": 0,
+  "active": 4948,
+  "confirmed": 13615,
+  "createdAt": {
+    "$date": "2020-06-15T19:01:25.748Z"
+  },
+  "cured": 8268,
+  "death": 399,
+  "updatedAt": {
+    "$date": "2020-06-16T18:01:26.088Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee7c589ba88b9133c5d25fe"
+  },
+  "date": "2020-6-16",
+  "name": "West Bengal",
+  "__v": 0,
+  "active": 5515,
+  "confirmed": 11494,
+  "createdAt": {
+    "$date": "2020-06-15T19:01:25.748Z"
+  },
+  "cured": 5494,
+  "death": 485,
+  "updatedAt": {
+    "$date": "2020-06-16T18:01:26.088Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee7c589ba88b9133c5d260a"
+  },
+  "date": "2020-6-16",
+  "name": "Cases being reassigned to states",
+  "__v": 0,
+  "active": 7684,
+  "confirmed": 7684,
+  "createdAt": {
+    "$date": "2020-06-15T19:01:25.748Z"
+  },
+  "cured": null,
+  "death": null,
+  "updatedAt": {
+    "$date": "2020-06-16T18:01:26.088Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee908faba88b9133c775d69"
+  },
+  "date": "2020-6-16",
+  "name": "Total",
+  "__v": 0,
+  "active": 153178,
+  "confirmed": 343091,
+  "createdAt": {
+    "$date": "2020-06-16T18:01:30.353Z"
+  },
+  "cured": 180013,
+  "death": 9900,
+  "updatedAt": {
+    "$date": "2020-06-16T18:01:30.353Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee91706ba88b9133c787a18"
+  },
+  "date": "2020-6-17",
+  "name": "Andaman and Nicobar Islands",
+  "__v": 0,
+  "active": 11,
+  "confirmed": 44,
+  "createdAt": {
+    "$date": "2020-06-16T19:01:24.348Z"
+  },
+  "cured": 33,
+  "death": 0,
+  "updatedAt": {
+    "$date": "2020-06-17T18:01:27.125Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee91706ba88b9133c787a17"
+  },
+  "date": "2020-6-17",
+  "name": "Andhra Pradesh",
+  "__v": 0,
+  "active": 3244,
+  "confirmed": 6841,
+  "createdAt": {
+    "$date": "2020-06-16T19:01:24.349Z"
+  },
+  "cured": 3509,
+  "death": 88,
+  "updatedAt": {
+    "$date": "2020-06-17T18:01:27.126Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee91706ba88b9133c787a1b"
+  },
+  "date": "2020-6-17",
+  "name": "Arunachal Pradesh",
+  "__v": 0,
+  "active": 88,
+  "confirmed": 95,
+  "createdAt": {
+    "$date": "2020-06-16T19:01:24.349Z"
+  },
+  "cured": 7,
+  "death": 0,
+  "updatedAt": {
+    "$date": "2020-06-17T18:01:27.126Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee91706ba88b9133c787a23"
+  },
+  "date": "2020-6-17",
+  "name": "Assam",
+  "__v": 0,
+  "active": 2145,
+  "confirmed": 4319,
+  "createdAt": {
+    "$date": "2020-06-16T19:01:24.349Z"
+  },
+  "cured": 2166,
+  "death": 8,
+  "updatedAt": {
+    "$date": "2020-06-17T18:01:27.127Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee91706ba88b9133c787a2b"
+  },
+  "date": "2020-6-17",
+  "name": "Bihar",
+  "__v": 0,
+  "active": 2093,
+  "confirmed": 6778,
+  "createdAt": {
+    "$date": "2020-06-16T19:01:24.349Z"
+  },
+  "cured": 4644,
+  "death": 41,
+  "updatedAt": {
+    "$date": "2020-06-17T18:01:27.127Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee91706ba88b9133c787a43"
+  },
+  "date": "2020-6-17",
+  "name": "Chhattisgarh",
+  "__v": 0,
+  "active": 736,
+  "confirmed": 1781,
+  "createdAt": {
+    "$date": "2020-06-16T19:01:24.350Z"
+  },
+  "cured": 1036,
+  "death": 9,
+  "updatedAt": {
+    "$date": "2020-06-17T18:01:27.127Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee91706ba88b9133c787a44"
+  },
+  "date": "2020-6-17",
+  "name": "Dadra and Nagar Haveli and Daman and Diu",
+  "__v": 0,
+  "active": 36,
+  "confirmed": 45,
+  "createdAt": {
+    "$date": "2020-06-16T19:01:24.350Z"
+  },
+  "cured": 9,
+  "death": 0,
+  "updatedAt": {
+    "$date": "2020-06-17T18:01:27.127Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee91706ba88b9133c787a47"
+  },
+  "date": "2020-6-17",
+  "name": "Chandigarh",
+  "__v": 0,
+  "active": 50,
+  "confirmed": 358,
+  "createdAt": {
+    "$date": "2020-06-16T19:01:24.350Z"
+  },
+  "cured": 302,
+  "death": 6,
+  "updatedAt": {
+    "$date": "2020-06-17T18:01:27.127Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee91706ba88b9133c787a4a"
+  },
+  "date": "2020-6-17",
+  "name": "Goa",
+  "__v": 0,
+  "active": 544,
+  "confirmed": 629,
+  "createdAt": {
+    "$date": "2020-06-16T19:01:24.350Z"
+  },
+  "cured": 85,
+  "death": 0,
+  "updatedAt": {
+    "$date": "2020-06-17T18:01:27.127Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee91706ba88b9133c787a53"
+  },
+  "date": "2020-6-17",
+  "name": "Delhi",
+  "__v": 0,
+  "active": 26351,
+  "confirmed": 44688,
+  "createdAt": {
+    "$date": "2020-06-16T19:01:24.350Z"
+  },
+  "cured": 16500,
+  "death": 1837,
+  "updatedAt": {
+    "$date": "2020-06-17T18:01:27.127Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee91706ba88b9133c787a77"
+  },
+  "date": "2020-6-17",
+  "name": "Haryana",
+  "__v": 0,
+  "active": 4406,
+  "confirmed": 8272,
+  "createdAt": {
+    "$date": "2020-06-16T19:01:24.350Z"
+  },
+  "cured": 3748,
+  "death": 118,
+  "updatedAt": {
+    "$date": "2020-06-17T18:01:27.127Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee91706ba88b9133c787a78"
+  },
+  "date": "2020-6-17",
+  "name": "Gujarat",
+  "__v": 0,
+  "active": 5962,
+  "confirmed": 24577,
+  "createdAt": {
+    "$date": "2020-06-16T19:01:24.350Z"
+  },
+  "cured": 17082,
+  "death": 1533,
+  "updatedAt": {
+    "$date": "2020-06-17T18:01:27.127Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee91706ba88b9133c787a7b"
+  },
+  "date": "2020-6-17",
+  "name": "Himachal Pradesh",
+  "__v": 0,
+  "active": 180,
+  "confirmed": 560,
+  "createdAt": {
+    "$date": "2020-06-16T19:01:24.350Z"
+  },
+  "cured": 372,
+  "death": 8,
+  "updatedAt": {
+    "$date": "2020-06-17T18:01:27.128Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee91706ba88b9133c787a80"
+  },
+  "date": "2020-6-17",
+  "name": "Jharkhand",
+  "__v": 0,
+  "active": 709,
+  "confirmed": 1839,
+  "createdAt": {
+    "$date": "2020-06-16T19:01:24.350Z"
+  },
+  "cured": 1121,
+  "death": 9,
+  "updatedAt": {
+    "$date": "2020-06-17T18:01:27.128Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee91706ba88b9133c787a86"
+  },
+  "date": "2020-6-17",
+  "name": "Jammu and Kashmir",
+  "__v": 0,
+  "active": 2454,
+  "confirmed": 5298,
+  "createdAt": {
+    "$date": "2020-06-16T19:01:24.350Z"
+  },
+  "cured": 2781,
+  "death": 63,
+  "updatedAt": {
+    "$date": "2020-06-17T18:01:27.128Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee91707ba88b9133c787aa1"
+  },
+  "date": "2020-6-17",
+  "name": "Kerala",
+  "__v": 0,
+  "active": 1366,
+  "confirmed": 2622,
+  "createdAt": {
+    "$date": "2020-06-16T19:01:24.350Z"
+  },
+  "cured": 1236,
+  "death": 20,
+  "updatedAt": {
+    "$date": "2020-06-17T18:01:27.128Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee91707ba88b9133c787aa2"
+  },
+  "date": "2020-6-17",
+  "name": "Ladakh",
+  "__v": 0,
+  "active": 563,
+  "confirmed": 649,
+  "createdAt": {
+    "$date": "2020-06-16T19:01:24.351Z"
+  },
+  "cured": 85,
+  "death": 1,
+  "updatedAt": {
+    "$date": "2020-06-17T18:01:27.128Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee91707ba88b9133c787aa3"
+  },
+  "date": "2020-6-17",
+  "name": "Karnataka",
+  "__v": 0,
+  "active": 2980,
+  "confirmed": 7530,
+  "createdAt": {
+    "$date": "2020-06-16T19:01:24.350Z"
+  },
+  "cured": 4456,
+  "death": 94,
+  "updatedAt": {
+    "$date": "2020-06-17T18:01:27.128Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee91707ba88b9133c787aad"
+  },
+  "date": "2020-6-17",
+  "name": "Madhya Pradesh",
+  "__v": 0,
+  "active": 2455,
+  "confirmed": 11083,
+  "createdAt": {
+    "$date": "2020-06-16T19:01:24.351Z"
+  },
+  "cured": 8152,
+  "death": 476,
+  "updatedAt": {
+    "$date": "2020-06-17T18:01:27.128Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee91707ba88b9133c787aac"
+  },
+  "date": "2020-6-17",
+  "name": "Maharashtra",
+  "__v": 0,
+  "active": 50057,
+  "confirmed": 113445,
+  "createdAt": {
+    "$date": "2020-06-16T19:01:24.351Z"
+  },
+  "cured": 57851,
+  "death": 5537,
+  "updatedAt": {
+    "$date": "2020-06-17T18:01:27.128Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee91707ba88b9133c787acc"
+  },
+  "date": "2020-6-17",
+  "name": "Manipur",
+  "__v": 0,
+  "active": 341,
+  "confirmed": 500,
+  "createdAt": {
+    "$date": "2020-06-16T19:01:24.351Z"
+  },
+  "cured": 159,
+  "death": 0,
+  "updatedAt": {
+    "$date": "2020-06-17T18:01:27.128Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee91707ba88b9133c787acd"
+  },
+  "date": "2020-6-17",
+  "name": "Mizoram",
+  "__v": 0,
+  "active": 120,
+  "confirmed": 121,
+  "createdAt": {
+    "$date": "2020-06-16T19:01:24.351Z"
+  },
+  "cured": 1,
+  "death": 0,
+  "updatedAt": {
+    "$date": "2020-06-17T18:01:27.128Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee91707ba88b9133c787ace"
+  },
+  "date": "2020-6-17",
+  "name": "Meghalaya",
+  "__v": 0,
+  "active": 18,
+  "confirmed": 44,
+  "createdAt": {
+    "$date": "2020-06-16T19:01:24.351Z"
+  },
+  "cured": 25,
+  "death": 1,
+  "updatedAt": {
+    "$date": "2020-06-17T18:01:27.128Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee91707ba88b9133c787add"
+  },
+  "date": "2020-6-17",
+  "name": "Nagaland",
+  "__v": 0,
+  "active": 87,
+  "confirmed": 179,
+  "createdAt": {
+    "$date": "2020-06-16T19:01:24.351Z"
+  },
+  "cured": 92,
+  "death": 0,
+  "updatedAt": {
+    "$date": "2020-06-17T18:01:27.129Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee91707ba88b9133c787ade"
+  },
+  "date": "2020-6-17",
+  "name": "Odisha",
+  "__v": 0,
+  "active": 1178,
+  "confirmed": 4163,
+  "createdAt": {
+    "$date": "2020-06-16T19:01:24.351Z"
+  },
+  "cured": 2974,
+  "death": 11,
+  "updatedAt": {
+    "$date": "2020-06-17T18:01:27.129Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee91707ba88b9133c787af6"
+  },
+  "date": "2020-6-17",
+  "name": "Puducherry",
+  "__v": 0,
+  "active": 111,
+  "confirmed": 216,
+  "createdAt": {
+    "$date": "2020-06-16T19:01:24.351Z"
+  },
+  "cured": 99,
+  "death": 6,
+  "updatedAt": {
+    "$date": "2020-06-17T18:01:27.129Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee91707ba88b9133c787af8"
+  },
+  "date": "2020-6-17",
+  "name": "Rajasthan",
+  "__v": 0,
+  "active": 3059,
+  "confirmed": 13216,
+  "createdAt": {
+    "$date": "2020-06-16T19:01:24.351Z"
+  },
+  "cured": 9849,
+  "death": 308,
+  "updatedAt": {
+    "$date": "2020-06-17T18:01:27.129Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee91707ba88b9133c787af9"
+  },
+  "date": "2020-6-17",
+  "name": "Punjab",
+  "__v": 0,
+  "active": 838,
+  "confirmed": 3371,
+  "createdAt": {
+    "$date": "2020-06-16T19:01:24.351Z"
+  },
+  "cured": 2461,
+  "death": 72,
+  "updatedAt": {
+    "$date": "2020-06-17T18:01:27.129Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee91707ba88b9133c787b0c"
+  },
+  "date": "2020-6-17",
+  "name": "Sikkim",
+  "__v": 0,
+  "active": 66,
+  "confirmed": 70,
+  "createdAt": {
+    "$date": "2020-06-16T19:01:24.351Z"
+  },
+  "cured": 4,
+  "death": 0,
+  "updatedAt": {
+    "$date": "2020-06-17T18:01:27.129Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee91707ba88b9133c787b0d"
+  },
+  "date": "2020-6-17",
+  "name": "Tamil Nadu",
+  "__v": 0,
+  "active": 20709,
+  "confirmed": 48019,
+  "createdAt": {
+    "$date": "2020-06-16T19:01:24.352Z"
+  },
+  "cured": 26782,
+  "death": 528,
+  "updatedAt": {
+    "$date": "2020-06-17T18:01:27.129Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee91707ba88b9133c787b21"
+  },
+  "date": "2020-6-17",
+  "name": "Telangana",
+  "__v": 0,
+  "active": 2188,
+  "confirmed": 5406,
+  "createdAt": {
+    "$date": "2020-06-16T19:01:24.352Z"
+  },
+  "cured": 3027,
+  "death": 191,
+  "updatedAt": {
+    "$date": "2020-06-17T18:01:27.129Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee91707ba88b9133c787b22"
+  },
+  "date": "2020-6-17",
+  "name": "Tripura",
+  "__v": 0,
+  "active": 658,
+  "confirmed": 1092,
+  "createdAt": {
+    "$date": "2020-06-16T19:01:24.352Z"
+  },
+  "cured": 433,
+  "death": 1,
+  "updatedAt": {
+    "$date": "2020-06-17T18:01:27.129Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee91707ba88b9133c787b25"
+  },
+  "date": "2020-6-17",
+  "name": "Uttarakhand",
+  "__v": 0,
+  "active": 701,
+  "confirmed": 1942,
+  "createdAt": {
+    "$date": "2020-06-16T19:01:24.352Z"
+  },
+  "cured": 1216,
+  "death": 25,
+  "updatedAt": {
+    "$date": "2020-06-17T18:01:27.129Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee91707ba88b9133c787b39"
+  },
+  "date": "2020-6-17",
+  "name": "West Bengal",
+  "__v": 0,
+  "active": 5386,
+  "confirmed": 11909,
+  "createdAt": {
+    "$date": "2020-06-16T19:01:24.352Z"
+  },
+  "cured": 6028,
+  "death": 495,
+  "updatedAt": {
+    "$date": "2020-06-17T18:01:27.129Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee91707ba88b9133c787b3a"
+  },
+  "date": "2020-6-17",
+  "name": "Uttar Pradesh",
+  "__v": 0,
+  "active": 5064,
+  "confirmed": 14091,
+  "createdAt": {
+    "$date": "2020-06-16T19:01:24.352Z"
+  },
+  "cured": 8610,
+  "death": 417,
+  "updatedAt": {
+    "$date": "2020-06-17T18:01:27.129Z"
+  }
+},{
+  "_id": {
+    "$oid": "5ee91708ba88b9133c787b4c"
+  },
+  "date": "2020-6-17",
+  "name": "Cases being reassigned to states",
+  "__v": 0,
+  "active": 8273,
+  "confirmed": 8273,
+  "createdAt": {
+    "$date": "2020-06-16T19:01:24.352Z"
+  },
+  "cured": null,
+  "death": null,
+  "updatedAt": {
+    "$date": "2020-06-17T18:01:27.129Z"
+  }
+},{
+  "_id": {
+    "$oid": "5eea5a7bba88b9133c923bd3"
+  },
+  "date": "2020-6-17",
+  "name": "Total",
+  "__v": 0,
+  "active": 155227,
+  "confirmed": 354065,
+  "createdAt": {
+    "$date": "2020-06-17T18:01:31.415Z"
+  },
+  "cured": 186935,
+  "death": 11903,
+  "updatedAt": {
+    "$date": "2020-06-17T18:01:31.415Z"
+  }
+},{
+  "_id": {
+    "$oid": "5eea6896ba88b9133c935672"
+  },
+  "date": "2020-6-18",
+  "name": "Andaman and Nicobar Islands",
+  "__v": 0,
+  "active": 11,
+  "confirmed": 44,
+  "createdAt": {
+    "$date": "2020-06-17T19:01:40.183Z"
+  },
+  "cured": 33,
+  "death": 0,
+  "updatedAt": {
+    "$date": "2020-06-18T08:01:24.816Z"
+  }
+},{
+  "_id": {
+    "$oid": "5eea6896ba88b9133c935683"
+  },
+  "date": "2020-6-18",
+  "name": "Arunachal Pradesh",
+  "__v": 0,
+  "active": 92,
+  "confirmed": 99,
+  "createdAt": {
+    "$date": "2020-06-17T19:01:40.186Z"
+  },
+  "cured": 7,
+  "death": 0,
+  "updatedAt": {
+    "$date": "2020-06-18T08:01:24.817Z"
+  }
+},{
+  "_id": {
+    "$oid": "5eea6896ba88b9133c935684"
+  },
+  "date": "2020-6-18",
+  "name": "Andhra Pradesh",
+  "__v": 0,
+  "active": 3340,
+  "confirmed": 7071,
+  "createdAt": {
+    "$date": "2020-06-17T19:01:40.186Z"
+  },
+  "cured": 3641,
+  "death": 90,
+  "updatedAt": {
+    "$date": "2020-06-18T08:01:24.817Z"
+  }
+},{
+  "_id": {
+    "$oid": "5eea6896ba88b9133c935698"
+  },
+  "date": "2020-6-18",
+  "name": "Assam",
+  "__v": 0,
+  "active": 1955,
+  "confirmed": 4605,
+  "createdAt": {
+    "$date": "2020-06-17T19:01:40.186Z"
+  },
+  "cured": 2642,
+  "death": 8,
+  "updatedAt": {
+    "$date": "2020-06-18T08:01:24.818Z"
+  }
+},{
+  "_id": {
+    "$oid": "5eea6896ba88b9133c93569e"
+  },
+  "date": "2020-6-18",
+  "name": "Bihar",
+  "__v": 0,
+  "active": 1972,
+  "confirmed": 6942,
+  "createdAt": {
+    "$date": "2020-06-17T19:01:40.187Z"
+  },
+  "cured": 4926,
+  "death": 44,
+  "updatedAt": {
+    "$date": "2020-06-18T08:01:24.818Z"
+  }
+},{
+  "_id": {
+    "$oid": "5eea6896ba88b9133c9356b2"
+  },
+  "date": "2020-6-18",
+  "name": "Chandigarh",
+  "__v": 0,
+  "active": 59,
+  "confirmed": 368,
+  "createdAt": {
+    "$date": "2020-06-17T19:01:40.187Z"
+  },
+  "cured": 303,
+  "death": 6,
+  "updatedAt": {
+    "$date": "2020-06-18T08:01:24.818Z"
+  }
+},{
+  "_id": {
+    "$oid": "5eea6896ba88b9133c9356c0"
+  },
+  "date": "2020-6-18",
+  "name": "Chhattisgarh",
+  "__v": 0,
+  "active": 674,
+  "confirmed": 1864,
+  "createdAt": {
+    "$date": "2020-06-17T19:01:40.187Z"
+  },
+  "cured": 1180,
+  "death": 10,
+  "updatedAt": {
+    "$date": "2020-06-18T08:01:24.818Z"
+  }
+},{
+  "_id": {
+    "$oid": "5eea6896ba88b9133c9356c1"
+  },
+  "date": "2020-6-18",
+  "name": "Dadra and Nagar Haveli and Daman and Diu",
+  "__v": 0,
+  "active": 45,
+  "confirmed": 57,
+  "createdAt": {
+    "$date": "2020-06-17T19:01:40.187Z"
+  },
+  "cured": 12,
+  "death": 0,
+  "updatedAt": {
+    "$date": "2020-06-18T08:01:24.818Z"
+  }
+},{
+  "_id": {
+    "$oid": "5eea6896ba88b9133c9356d2"
+  },
+  "date": "2020-6-18",
+  "name": "Delhi",
+  "__v": 0,
+  "active": 27741,
+  "confirmed": 47102,
+  "createdAt": {
+    "$date": "2020-06-17T19:01:40.187Z"
+  },
+  "cured": 17457,
+  "death": 1904,
+  "updatedAt": {
+    "$date": "2020-06-18T08:01:24.818Z"
+  }
+},{
+  "_id": {
+    "$oid": "5eea6896ba88b9133c9356dc"
+  },
+  "date": "2020-6-18",
+  "name": "Goa",
+  "__v": 0,
+  "active": 560,
+  "confirmed": 656,
+  "createdAt": {
+    "$date": "2020-06-17T19:01:40.187Z"
+  },
+  "cured": 96,
+  "death": 0,
+  "updatedAt": {
+    "$date": "2020-06-18T08:01:24.818Z"
+  }
+},{
+  "_id": {
+    "$oid": "5eea6896ba88b9133c9356ee"
+  },
+  "date": "2020-6-18",
+  "name": "Gujarat",
+  "__v": 0,
+  "active": 6103,
+  "confirmed": 25093,
+  "createdAt": {
+    "$date": "2020-06-17T19:01:40.188Z"
+  },
+  "cured": 17430,
+  "death": 1560,
+  "updatedAt": {
+    "$date": "2020-06-18T08:01:24.818Z"
+  }
+},{
+  "_id": {
+    "$oid": "5eea6896ba88b9133c9356f9"
+  },
+  "date": "2020-6-18",
+  "name": "Haryana",
+  "__v": 0,
+  "active": 4750,
+  "confirmed": 8832,
+  "createdAt": {
+    "$date": "2020-06-17T19:01:40.199Z"
+  },
+  "cured": 3952,
+  "death": 130,
+  "updatedAt": {
+    "$date": "2020-06-18T08:01:24.819Z"
+  }
+},{
+  "_id": {
+    "$oid": "5eea6896ba88b9133c9356fc"
+  },
+  "date": "2020-6-18",
+  "name": "Himachal Pradesh",
+  "__v": 0,
+  "active": 189,
+  "confirmed": 569,
+  "createdAt": {
+    "$date": "2020-06-17T19:01:40.199Z"
+  },
+  "cured": 372,
+  "death": 8,
+  "updatedAt": {
+    "$date": "2020-06-18T08:01:24.819Z"
+  }
+},{
+  "_id": {
+    "$oid": "5eea6896ba88b9133c93570d"
+  },
+  "date": "2020-6-18",
+  "name": "Jammu and Kashmir",
+  "__v": 0,
+  "active": 2427,
+  "confirmed": 5406,
+  "createdAt": {
+    "$date": "2020-06-17T19:01:40.199Z"
+  },
+  "cured": 2914,
+  "death": 65,
+  "updatedAt": {
+    "$date": "2020-06-18T08:01:24.819Z"
+  }
+},{
+  "_id": {
+    "$oid": "5eea6896ba88b9133c935718"
+  },
+  "date": "2020-6-18",
+  "name": "Jharkhand",
+  "__v": 0,
+  "active": 734,
+  "confirmed": 1895,
+  "createdAt": {
+    "$date": "2020-06-17T19:01:40.200Z"
+  },
+  "cured": 1151,
+  "death": 10,
+  "updatedAt": {
+    "$date": "2020-06-18T08:01:24.819Z"
+  }
+},{
+  "_id": {
+    "$oid": "5eea6896ba88b9133c935725"
+  },
+  "date": "2020-6-18",
+  "name": "Karnataka",
+  "__v": 0,
+  "active": 2828,
+  "confirmed": 7734,
+  "createdAt": {
+    "$date": "2020-06-17T19:01:40.200Z"
+  },
+  "cured": 4804,
+  "death": 102,
+  "updatedAt": {
+    "$date": "2020-06-18T08:01:24.819Z"
+  }
+},{
+  "_id": {
+    "$oid": "5eea6896ba88b9133c935730"
+  },
+  "date": "2020-6-18",
+  "name": "Kerala",
+  "__v": 0,
+  "active": 1351,
+  "confirmed": 2697,
+  "createdAt": {
+    "$date": "2020-06-17T19:01:40.200Z"
+  },
+  "cured": 1326,
+  "death": 20,
+  "updatedAt": {
+    "$date": "2020-06-18T08:01:24.819Z"
+  }
+},{
+  "_id": {
+    "$oid": "5eea6896ba88b9133c935733"
+  },
+  "date": "2020-6-18",
+  "name": "Ladakh",
+  "__v": 0,
+  "active": 594,
+  "confirmed": 687,
+  "createdAt": {
+    "$date": "2020-06-17T19:01:40.200Z"
+  },
+  "cured": 92,
+  "death": 1,
+  "updatedAt": {
+    "$date": "2020-06-18T08:01:24.819Z"
+  }
+},{
+  "_id": {
+    "$oid": "5eea6896ba88b9133c935744"
+  },
+  "date": "2020-6-18",
+  "name": "Madhya Pradesh",
+  "__v": 0,
+  "active": 2374,
+  "confirmed": 11244,
+  "createdAt": {
+    "$date": "2020-06-17T19:01:40.200Z"
+  },
+  "cured": 8388,
+  "death": 482,
+  "updatedAt": {
+    "$date": "2020-06-18T08:01:24.819Z"
+  }
+},{
+  "_id": {
+    "$oid": "5eea6896ba88b9133c93574f"
+  },
+  "date": "2020-6-18",
+  "name": "Maharashtra",
+  "__v": 0,
+  "active": 51935,
+  "confirmed": 116752,
+  "createdAt": {
+    "$date": "2020-06-17T19:01:40.200Z"
+  },
+  "cured": 59166,
+  "death": 5651,
+  "updatedAt": {
+    "$date": "2020-06-18T08:01:24.819Z"
+  }
+},{
+  "_id": {
+    "$oid": "5eea6897ba88b9133c93575f"
+  },
+  "date": "2020-6-18",
+  "name": "Meghalaya",
+  "__v": 0,
+  "active": 13,
+  "confirmed": 44,
+  "createdAt": {
+    "$date": "2020-06-17T19:01:40.200Z"
+  },
+  "cured": 30,
+  "death": 1,
+  "updatedAt": {
+    "$date": "2020-06-18T08:01:24.819Z"
+  }
+},{
+  "_id": {
+    "$oid": "5eea6897ba88b9133c93575e"
+  },
+  "date": "2020-6-18",
+  "name": "Manipur",
+  "__v": 0,
+  "active": 360,
+  "confirmed": 552,
+  "createdAt": {
+    "$date": "2020-06-17T19:01:40.200Z"
+  },
+  "cured": 192,
+  "death": 0,
+  "updatedAt": {
+    "$date": "2020-06-18T08:01:24.819Z"
+  }
+},{
+  "_id": {
+    "$oid": "5eea6897ba88b9133c935762"
+  },
+  "date": "2020-6-18",
+  "name": "Mizoram",
+  "__v": 0,
+  "active": 120,
+  "confirmed": 121,
+  "createdAt": {
+    "$date": "2020-06-17T19:01:40.200Z"
+  },
+  "cured": 1,
+  "death": 0,
+  "updatedAt": {
+    "$date": "2020-06-18T08:01:24.820Z"
+  }
+},{
+  "_id": {
+    "$oid": "5eea6897ba88b9133c935773"
+  },
+  "date": "2020-6-18",
+  "name": "Nagaland",
+  "__v": 0,
+  "active": 90,
+  "confirmed": 193,
+  "createdAt": {
+    "$date": "2020-06-17T19:01:40.200Z"
+  },
+  "cured": 103,
+  "death": 0,
+  "updatedAt": {
+    "$date": "2020-06-18T08:01:24.820Z"
+  }
+},{
+  "_id": {
+    "$oid": "5eea6897ba88b9133c935776"
+  },
+  "date": "2020-6-18",
+  "name": "Odisha",
+  "__v": 0,
+  "active": 1280,
+  "confirmed": 4338,
+  "createdAt": {
+    "$date": "2020-06-17T19:01:40.200Z"
+  },
+  "cured": 3047,
+  "death": 11,
+  "updatedAt": {
+    "$date": "2020-06-18T08:01:24.820Z"
+  }
+},{
+  "_id": {
+    "$oid": "5eea6897ba88b9133c935788"
+  },
+  "date": "2020-6-18",
+  "name": "Puducherry",
+  "__v": 0,
+  "active": 129,
+  "confirmed": 245,
+  "createdAt": {
+    "$date": "2020-06-17T19:01:40.200Z"
+  },
+  "cured": 109,
+  "death": 7,
+  "updatedAt": {
+    "$date": "2020-06-18T08:01:24.820Z"
+  }
+},{
+  "_id": {
+    "$oid": "5eea6897ba88b9133c935793"
+  },
+  "date": "2020-6-18",
+  "name": "Punjab",
+  "__v": 0,
+  "active": 881,
+  "confirmed": 3497,
+  "createdAt": {
+    "$date": "2020-06-17T19:01:40.201Z"
+  },
+  "cured": 2538,
+  "death": 78,
+  "updatedAt": {
+    "$date": "2020-06-18T08:01:24.820Z"
+  }
+},{
+  "_id": {
+    "$oid": "5eea6897ba88b9133c935796"
+  },
+  "date": "2020-6-18",
+  "name": "Rajasthan",
+  "__v": 0,
+  "active": 2762,
+  "confirmed": 13542,
+  "createdAt": {
+    "$date": "2020-06-17T19:01:40.201Z"
+  },
+  "cured": 10467,
+  "death": 313,
+  "updatedAt": {
+    "$date": "2020-06-18T08:01:24.820Z"
+  }
+},{
+  "_id": {
+    "$oid": "5eea6897ba88b9133c9357a8"
+  },
+  "date": "2020-6-18",
+  "name": "Sikkim",
+  "__v": 0,
+  "active": 66,
+  "confirmed": 70,
+  "createdAt": {
+    "$date": "2020-06-17T19:01:40.201Z"
+  },
+  "cured": 4,
+  "death": 0,
+  "updatedAt": {
+    "$date": "2020-06-18T08:01:24.820Z"
+  }
+},{
+  "_id": {
+    "$oid": "5eea6897ba88b9133c9357ad"
+  },
+  "date": "2020-6-18",
+  "name": "Tamil Nadu",
+  "__v": 0,
+  "active": 21993,
+  "confirmed": 50193,
+  "createdAt": {
+    "$date": "2020-06-17T19:01:40.201Z"
+  },
+  "cured": 27624,
+  "death": 576,
+  "updatedAt": {
+    "$date": "2020-06-18T08:01:24.820Z"
+  }
+},{
+  "_id": {
+    "$oid": "5eea6897ba88b9133c9357bf"
+  },
+  "date": "2020-6-18",
+  "name": "Telangana",
+  "__v": 0,
+  "active": 2412,
+  "confirmed": 5675,
+  "createdAt": {
+    "$date": "2020-06-17T19:01:40.201Z"
+  },
+  "cured": 3071,
+  "death": 192,
+  "updatedAt": {
+    "$date": "2020-06-18T08:01:24.820Z"
+  }
+},{
+  "_id": {
+    "$oid": "5eea6897ba88b9133c9357ca"
+  },
+  "date": "2020-6-18",
+  "name": "Tripura",
+  "__v": 0,
+  "active": 578,
+  "confirmed": 1135,
+  "createdAt": {
+    "$date": "2020-06-17T19:01:40.201Z"
+  },
+  "cured": 556,
+  "death": 1,
+  "updatedAt": {
+    "$date": "2020-06-18T08:01:24.820Z"
+  }
+},{
+  "_id": {
+    "$oid": "5eea6897ba88b9133c9357d0"
+  },
+  "date": "2020-6-18",
+  "name": "Uttarakhand",
+  "__v": 0,
+  "active": 743,
+  "confirmed": 2023,
+  "createdAt": {
+    "$date": "2020-06-17T19:01:40.201Z"
+  },
+  "cured": 1254,
+  "death": 26,
+  "updatedAt": {
+    "$date": "2020-06-18T08:01:24.821Z"
+  }
+},{
+  "_id": {
+    "$oid": "5eea6897ba88b9133c9357e0"
+  },
+  "date": "2020-6-18",
+  "name": "Uttar Pradesh",
+  "__v": 0,
+  "active": 5259,
+  "confirmed": 14598,
+  "createdAt": {
+    "$date": "2020-06-17T19:01:40.201Z"
+  },
+  "cured": 8904,
+  "death": 435,
+  "updatedAt": {
+    "$date": "2020-06-18T08:01:24.821Z"
+  }
+},{
+  "_id": {
+    "$oid": "5eea6897ba88b9133c9357eb"
+  },
+  "date": "2020-6-18",
+  "name": "West Bengal",
+  "__v": 0,
+  "active": 5261,
+  "confirmed": 12300,
+  "createdAt": {
+    "$date": "2020-06-17T19:01:40.201Z"
+  },
+  "cured": 6533,
+  "death": 506,
+  "updatedAt": {
+    "$date": "2020-06-18T08:01:24.821Z"
+  }
+},{
+  "_id": {
+    "$oid": "5eea6898ba88b9133c9357f7"
+  },
+  "date": "2020-6-18",
+  "name": "Cases being reassigned to states",
+  "__v": 0,
+  "active": 8703,
+  "confirmed": 8703,
+  "createdAt": {
+    "$date": "2020-06-17T19:01:40.201Z"
+  },
+  "cured": null,
+  "death": null,
+  "updatedAt": {
+    "$date": "2020-06-18T08:01:24.821Z"
+  }
+},{
+  "_id": {
+    "$oid": "5eeb1f59ba88b9133ca1a128"
+  },
+  "date": "2020-6-18",
+  "name": "Total",
+  "__v": 0,
+  "active": 160384,
+  "confirmed": 366946,
+  "createdAt": {
+    "$date": "2020-06-18T08:01:29.187Z"
+  },
+  "cured": 194325,
+  "death": 12237,
+  "updatedAt": {
+    "$date": "2020-06-18T08:01:29.187Z"
   }
 }]
