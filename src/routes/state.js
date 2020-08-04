@@ -12,9 +12,10 @@ router.get('/:loc',async (req,res)=>{
     // const yesterday = moment().subtract(1, 'days').format('YYYY-M-D')
 
     const alldata = await State.find({name:search})
-    const todaydata = await State.find({name:search ,date:today})
+    const todaydata = await State.find({name:search ,date:'2020-4-8'})
 
-    const date = moment().format('LL'); 
+    // const date = moment().format('LL'); 
+    const date = 'August 4, 2020'
     res.render('state',{"data": alldata, "ydata": todaydata, "date": date})
 })
 

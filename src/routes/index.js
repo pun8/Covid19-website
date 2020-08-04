@@ -9,11 +9,11 @@ router.get('',async (req,res)=>{
     const today = moment().format('YYYY-M-D')
     const yesterday = moment().subtract(1, 'days').format('YYYY-M-D')
 
-    const todaydata = await State.find({date:today})
-    const yesterdaydata = await State.find({date:yesterday})
+    const todaydata = await State.find({date:'2020-4-8'})
+    const yesterdaydata = await State.find({date:'2020-4-8'})
     const len = (todaydata.length-1)
 
-    const total = await State.find({name:"Total", date:today})
+    const total = await State.find({name:"Total", date:'2020-4-8'})
     const alltot = await State.find({name:"Total"})
 
     res.render('index',{"data": todaydata, "total": total[0], "ydata":yesterdaydata, "n":len,  "alltot":alltot})
