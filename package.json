@@ -9,7 +9,7 @@
     "express": "^4.17.1",
     "hbs": "^4.1.1",
     "http-errors": "^1.7.3",
-    "moment": "^2.26.0",
+    "moment": "^2.29.2",
     "mongoose": "^5.9.12"
   },
   "devDependencies": {
